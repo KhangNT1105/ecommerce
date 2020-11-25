@@ -1,0 +1,17 @@
+@import 'styles/variables.scss';
+.customBreadcrumb{
+    span{
+        font-size: 16px;
+        .parent{
+            font-weight: 600;
+        }
+        .child{
+            color:$child-text-color;
+        }
+        &.icon{
+            font-size: 14px;
+            color:$child-text-color;
+
+        }
+    }
+}

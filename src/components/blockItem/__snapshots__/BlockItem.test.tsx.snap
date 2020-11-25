@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component BlockItem snapshots render snapshot correctly 1`] = `
+<div
+  className="tr block-infor"
+>
+  <div
+    className="td infor-line title"
+  >
+    campaignTitle
+  </div>
+  test
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LookupField /> snapshots default render 1`] = `
+<LookupFieldWrapper
+  clearTags={[Function]}
+  selectedTags={Array []}
+  setSelectedTags={[Function]}
+  single={false}
+  suggestions={Array []}
+/>
+`;
+
+exports[`<LookupField /> snapshots render with data 1`] = `
+<LookupFieldWrapper
+  clearTags={[Function]}
+  endpoint=""
+  fieldName="email"
+  mappingFn={[MockFunction]}
+  selectedTags={Array []}
+  setSelectedTags={[Function]}
+  single={false}
+  sort="name,asc"
+  suggestions={Array []}
+/>
+`;

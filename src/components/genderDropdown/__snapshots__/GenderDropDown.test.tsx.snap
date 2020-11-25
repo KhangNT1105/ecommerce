@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GenderDropdown /> snapshots render with empty current value 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+     
+    GENDER
+  </button>
+  <div
+    aria-hidden={true}
+    className="dropdown-menu"
+    role="menu"
+    tabIndex="-1"
+  >
+    <button
+      className="dropdown-item"
+      onClick={[Function]}
+      role="menuitem"
+      tabIndex="0"
+      type="button"
+    >
+      MALE
+    </button>
+    <button
+      className="dropdown-item"
+      onClick={[Function]}
+      role="menuitem"
+      tabIndex="0"
+      type="button"
+    >
+      FEMALE
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<GenderDropdown /> snapshots render with male current value 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+     
+    MALE
+  </button>
+  <div
+    aria-hidden={true}
+    className="dropdown-menu"
+    role="menu"
+    tabIndex="-1"
+  >
+    <button
+      className="dropdown-item"
+      onClick={[Function]}
+      role="menuitem"
+      tabIndex="0"
+      type="button"
+    >
+      MALE
+    </button>
+    <button
+      className="dropdown-item"
+      onClick={[Function]}
+      role="menuitem"
+      tabIndex="0"
+      type="button"
+    >
+      FEMALE
+    </button>
+  </div>
+</div>
+`;

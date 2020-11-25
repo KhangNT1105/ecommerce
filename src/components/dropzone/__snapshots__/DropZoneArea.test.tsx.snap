@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropZoneArea /> snapshots render snapshot correctly 1`] = `
+<section
+  className="dropzone--wrapper"
+>
+  <div
+    className="dropzone"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+  >
+    <div>
+      <i
+        className="fa fa-cloud-upload fa-fw fa-3x mb-3"
+      />
+      <form
+        encType="multipart/form-data"
+      >
+        <input
+          accept="image/*"
+          autoComplete="off"
+          multiple={true}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          tabIndex={-1}
+          type="file"
+        />
+      </form>
+      <h5
+        className="mt-0"
+      >
+        DROPZONE_MENTION_TEXT
+      </h5>
+      <div
+        className="error-container"
+      >
+        <small
+          className="small"
+        >
+          DROPZONE_IS_DRAG_ACTIVE
+        </small>
+        <small
+          className="small"
+        />
+        <small
+          className="small"
+        />
+        <small
+          className="small"
+        />
+        <small
+          className="small"
+        >
+          
+        </small>
+      </div>
+    </div>
+  </div>
+</section>
+`;

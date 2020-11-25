@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text Field /> snapshots render disabled text Field correctly 1`] = `
+<input
+  aria-invalid={false}
+  className="form-control"
+  disabled={true}
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value="Test value"
+/>
+`;
+
+exports[`<Text Field /> snapshots render text Field correctly 1`] = `
+<input
+  aria-invalid={false}
+  className="form-control"
+  disabled={false}
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value="Test value"
+/>
+`;
+
+exports[`<Text Field /> snapshots render text Field which do not have addOn with invalid 1`] = `
+Array [
+  <input
+    aria-invalid={true}
+    className="is-invalid form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value="Test value"
+  />,
+  <div
+    className="invalid-feedback"
+  />,
+]
+`;
+
+exports[`<Text Field /> snapshots render text Field which have addOn 1`] = `
+<div
+  className="input-group"
+>
+  <input
+    aria-invalid={false}
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value="Test value"
+  />
+  <div
+    className="input-group-append"
+  >
+    <span
+      className="input-group-text"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Text Field /> snapshots render text Field which have addOn and type is number 1`] = `
+<div
+  className="input-group"
+>
+  <input
+    aria-invalid={false}
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    pattern="[0-9]*"
+    placeholder=""
+    type="text"
+    value="Test value"
+  />
+  <div
+    className="input-group-append"
+  >
+    <span
+      className="input-group-text"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Text Field /> snapshots render text Field which have addOn with invalid 1`] = `
+Array [
+  <div
+    className="input-group"
+  >
+    <input
+      aria-invalid={true}
+      className="is-invalid form-control"
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+      value="Test value"
+    />
+    <div
+      className="invalid input-group-append"
+    >
+      <span
+        className="input-group-text"
+      />
+    </div>
+  </div>,
+  <div
+    className="invalid-feedback"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  />,
+]
+`;

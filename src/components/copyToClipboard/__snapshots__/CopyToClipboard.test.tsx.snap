@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CopyToClipboard snapshot snapshots Should render correctly 1`] = `
+<span
+  className="mt-2 ml-2"
+>
+  <i
+    className="fa fa-fw fa-clipboard copy-clipboard "
+    onClick={[Function]}
+    title="COPY_TO_CLIPBOARD"
+  />
+</span>
+`;

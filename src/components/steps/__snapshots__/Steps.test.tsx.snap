@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Steps /> snapshots snapshots active the first card 1`] = `
+<div
+  className="steps"
+>
+  <div
+    className="steps-item active"
+    onClick={[Function]}
+  >
+    <div
+      className="steps-item-container"
+    >
+      <div
+        className="steps-item-icon"
+      >
+        <span
+          className="steps-icon"
+        >
+          1
+        </span>
+      </div>
+      <div
+        className="steps-item-content"
+      >
+        <div
+          className="steps-item-title"
+        >
+          First
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="steps-item wait"
+    onClick={[Function]}
+  >
+    <div
+      className="steps-item-container"
+    >
+      <div
+        className="steps-item-icon"
+      >
+        <span
+          className="steps-icon"
+        />
+      </div>
+      <div
+        className="steps-item-content"
+      >
+        <div
+          className="steps-item-title"
+        >
+          Second
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Steps /> snapshots snapshots active the second card with onChange props 1`] = `
+<div
+  className="steps"
+>
+  <div
+    className="steps-item finish pointer"
+    onClick={[Function]}
+  >
+    <div
+      className="steps-item-container"
+    >
+      <div
+        className="steps-item-icon"
+      >
+        <span
+          className="steps-icon"
+        >
+          ✓
+        </span>
+      </div>
+      <div
+        className="steps-item-content"
+      >
+        <div
+          className="steps-item-title"
+        >
+          First
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="steps-item active"
+    onClick={[Function]}
+  >
+    <div
+      className="steps-item-container"
+    >
+      <div
+        className="steps-item-icon"
+      >
+        <span
+          className="steps-icon"
+        >
+          2
+        </span>
+      </div>
+      <div
+        className="steps-item-content"
+      >
+        <div
+          className="steps-item-title"
+        >
+          Second
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

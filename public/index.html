@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <!-- <link rel="icon" href="%PUBLIC_URL%/assets/images/favicon.png" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Charity web for administration" />
+  <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/images/logo192.png" /> -->
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <!-- <link rel="manifest" href="%PUBLIC_URL%/assets/manifest.json" /> -->
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "%PUBLIC_URL%/assets/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <!-- <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="%PUBLIC_URL%/assets/images/favicon-48.png" type="image/png" />
+  <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/assets/images/favicon-16.png" />
+  <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/assets/images/favicon-32.png" />
+  <link rel="icon" href="%PUBLIC_URL%/assets/images/favicon-32.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/favicon-32.ico" type="image/x-icon" />
+  <link rel="icon" sizes="32x32" href="%PUBLIC_URL%/assets/images/favicon-32.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/assets/manifest.json" /> -->
+  <!-- For Opera Coast: -->
+  <link rel="icon" href="%PUBLIC_URL%/assets/images/favicon-coast.png" sizes="228x228" />
+  <!-- For Windows 8: -->
+  <meta name="msapplication-TileImage" content="%PUBLIC_URL%/assets/images/pinned.png" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <!-- //////////////////////////////////////////////////////////////////////  -->
+  <!-- For Chrome for Android: -->
+  <link rel="icon" sizes="192x192" href="%PUBLIC_URL%/assets/images/logotracdia.png" />
+  <!-- For iPhone 6 Plus with @3× display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="%PUBLIC_URL%/assets/images/apple-touch-icon-192x192-precomposed.png" />
+  <!-- For iPad with @2× display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="%PUBLIC_URL%/assets/images/apple-touch-icon-152x152-precomposed.png" />
+  <!-- For iPad with @2× display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="%PUBLIC_URL%/assets/images/apple-touch-icon-152x152-precomposed.png" />
+  <!-- For iPhone with @2× display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="%PUBLIC_URL%/assets/images/apple-touch-icon-120x120-precomposed.png" />
+  <!-- For iPhone with @2× display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="%PUBLIC_URL%/assets/images/apple-touch-icon-120x120-precomposed.png" />
+  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="%PUBLIC_URL%/assets/images/apple-touch-icon-72x72-precomposed.png" />
+  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="%PUBLIC_URL%/assets/images/apple-touch-icon-72x72-precomposed.png" />
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="%PUBLIC_URL%/assets/images/favicon-48.png" />
+  <!-- 57×57px -->
+
+  <!-- For iPhone 6 Plus with @3× display: -->
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/images/apple-touch-icon-192x192.png" />
+  <!-- For iPad with @2× display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/assets/images/apple-touch-icon-152x152.png" />
+  <!-- For iPad with @2× display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="144x144" href="%PUBLIC_URL%/assets/images/apple-touch-icon-152x152.png" />
+  <!-- For iPhone with @2× display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="120x120" href="%PUBLIC_URL%/assets/images/apple-touch-icon-120x120.png" />
+  <!-- For iPhone with @2× display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="114x114" href="%PUBLIC_URL%/assets/images/apple-touch-icon-120x120.png" />
+  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/assets/images/apple-touch-icon-72x72.png" />
+  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="72x72" href="%PUBLIC_URL%/assets/images/apple-touch-icon-72x72.png" />
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/images/favicon-76.png" />
+  <!-- 57×57px -->
+
+  <link rel="android-touch-icon" href="%PUBLIC_URL%/assets/images/apple-touch-icon-120x120.png" />
+  <link rel="windows-touch-icon" href="%PUBLIC_URL%/assets/images/apple-touch-icon-120x120.png" />
+
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, user-scalable=0" />
+  <script src="https://kit.fontawesome.com/3db6f6f888.js" crossorigin="anonymous"></script>
+  <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+
+  <title>Máy đo đạc</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run Charity web app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

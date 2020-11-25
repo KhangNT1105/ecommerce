@@ -1,0 +1,30 @@
+@import "styles/variables.scss";
+
+.commentForm {
+  display: flex;
+
+  .commentForm__avatar {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    margin-right: 15px;
+  }
+
+  .commentForm__form {
+    width: 100%;
+
+    textarea {
+      width: 100%;
+      height: 7rem;
+      background-color: $white;
+    }
+
+    .commentForm__submit {
+      text-align: right;
+      padding-top: 10px;
+
+    }
+  }
+}

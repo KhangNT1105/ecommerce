@@ -1,0 +1,51 @@
+@import "styles/variables.scss";
+@import "styles/mixin.scss";
+
+.login-content {
+  label {
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 15px;
+
+    @include responds-to('small') {
+      font-size: 12px;
+    }
+  }
+
+  input {
+    @include responds-to('small') {
+      font-size: 12px;
+    }
+  }
+
+  .form-group {
+    @include responds-to('small') {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .forgot-password {
+    display: block;
+  }
+
+  button {
+    &.signin {
+      margin-top: 20px;
+      width: 100%;
+
+      @include responds-to('small') {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .redirect-to {
+    padding-top: 20px;
+
+    @include responds-to('small') {
+      font-size: 12px;
+    }
+  }
+
+
+}

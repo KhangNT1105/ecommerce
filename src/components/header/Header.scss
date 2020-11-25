@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.navbar {
+  &.navbar-light {
+    & ul.navbar-nav {
+      & li.nav-item {
+        & span.navbar-text {
+          cursor: auto;
+          text-transform: capitalize;
+
+          a {
+            cursor: pointer;
+          }
+
+          &.acexis-logo-text {
+            a {
+              color: $breadcrumbs-parent-color;
+            }
+          }
+
+          &:not(.px-2) {
+            color: $breadcrumbs-parent-color;
+
+            &:last-child {
+              color: $breadcrumbs-child-color;
+
+              a {
+                color: $breadcrumbs-child-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+@import './bootstrap.custom.scss';
+
+$distance: 8px;
+
+/** Color **/
+$white: #fff;
+$black: #000;
+$blue: #293165;
+$violet: #848ecf;
+$error: #f00;
+$colorGrey: #333;
+$colorLightGrey: #999;
+$colorCopyText: #0c0;
+$colorStatus: #f90;
+$bodyBackgroundColor: #f8f9fd;
+$sidebarWidth: 240px;
+$sidebarWidthSmall: 60px;
+$footerBorderColor: #eaeff0;
+$footerColor: #777986;
+$currentUserBg: #eaeff0;
+$blueBackground: #dce0f8;
+$disabledBg: #e4e4e4;
+$disabledColor: #e4e4e4;
+$green-placeholder: #008061;
+$grey-placeholder: #d8d8d8;
+$blue-preview-title: #293165;
+$black-preview-title: #231f20;
+$border-logo: #eaeff0;
+$grey: #ccc;
+$grey-1: #f2f2f2;
+$grey-border: #d1d2db;
+$grey-thead: #e9ecef;
+$border-filter :rgb(204, 204, 204);
+$border-input: #dee2e6;
+$drop-down-grey-color: #868e96;
+$drop-down-grey-border-color: #dee2e6;
+$date-picker-selected-color: #1eb7ff;
+$button-hover: #0c9;
+$info-color: #33ae9a;
+$secondary-color: #868e96;
+// project primary color
+$primary-color:#9cc25d;
+
+$text-active:#0052CC;
+
+$status-bg-active: #dafaed;
+$status-bg-inactive: #eaeff0;
+$status-bg-expired: rgba($status-bg-inactive, 0.5);
+$status-color-active: #0db669;
+$status-color-inactive: #231f20;
+$status-color-expired: rgba($status-color-inactive, 0.5);
+
+/* Login form */
+$btn-signin-bg: linear-gradient(90deg, #0c9 0, #09f);
+$btn-signin-bg-hover: linear-gradient(90deg, #0c9 0, #0c9);
+$btn-signin-bg-disabled: #3e495b;
+$btn-signin-text-disabled: #a3afc2;
+$btn-signin-border: #009fea;
+$text-label: #8493a5;
+$text-navigate: #3f4651;
+$text-field-focus: #495057;
+$border-field-focus: #80bdff;
+
+$breadcrumbs-parent-color: #1f2d3d;
+$breadcrumbs-child-color: #8493a5;
+
+/** Layout **/
+$anonymous-width-content: 420px;
+$padding-content: 25px;
+$search-height: 44px;
+$search-height-small: 34px;
+$search-border-color: $input-border-color;
+
+/** Animation **/
+$slide-duration: 0.3s;
+
+/** User Group Permissions **/
+$text-color: #353c48;
+$border-color: #e9ecef;
+$list-group-header-color: #f1f1f1;
+$group-header-color: #f8f8f8;
+
+/* Checkbox */
+$checkbox-border-color: #007bff;
+
+// dropdown button
+$drop-down-button-border: 1px solid #dee2e6;
+
+// screen
+$tablet-width: 768px;
+$laptop-width: 1024px;
+$desktop-width: 1281px;
+
+$favorite-green: #3c3;
+
+// custom header
+$header-bg-color:#363F4D;
+$header-border-color:#eee;
+
+// product
+$product-bg-color:#F7F7F7;
+
+$box-shadow-header:rgba(0, 0, 0, 0.05);
+
+// highlight
+$border-color-highlight:#ebebeb;
+$color-subtitle-highlight:#868686;
+
+// login
+$circle-bg-color1:#4cb8c4;
+$circle-bg-color2:#3cd3ad;
+
+// products
+$border-color-categories:#ebeeee;
+$bg-color-badges:#ecb02f;
+$grey-4:#8a8a8a;
+
+// breadcrumb
+$child-text-color:#666666;
+// checkout report
+$bg-header-color:#e9e9e9;

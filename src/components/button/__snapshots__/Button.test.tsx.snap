@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Button snapshots default render 1`] = `
+<button
+  aria-label={null}
+  className="  btn btn-info btn-sm"
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`component Button snapshots render disabled 1`] = `
+<button
+  aria-label={null}
+  className=" disabled btn btn-info btn-sm disabled"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`component Button snapshots render with children 1`] = `
+<button
+  aria-label={null}
+  className="  btn btn-info btn-sm"
+  onClick={[Function]}
+  type="button"
+>
+  Text
+</button>
+`;

@@ -1,0 +1,134 @@
+@import 'styles/variables.scss';
+@import 'styles/mixin.scss';
+
+.listComments {
+  padding-top: 15px;
+
+  .comment {
+    .comment__content {
+      display: flex;
+      width: 100%;
+
+      .comment__avatar {
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      .comment__information {
+        padding-left: 15px;
+        width: 100%;
+
+        .comment__header {
+          display: flex;
+          justify-content: space-between;
+
+          span {
+            padding-left: 15px;
+            color: $grey-4;
+            font-size: 13px;
+          }
+
+          .comment__service {
+            .deleteService {
+              cursor: pointer;
+              &:hover {
+                svg {
+                  color: $error;
+                }
+              }
+            }
+          }
+        }
+
+        .comment__text {
+          margin-bottom: 5px;
+        }
+
+        .comment__reply {
+          color: $text-active;
+          margin-bottom: 20px;
+          display: inline-block;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .comment__replied {
+          width: 100%;
+          margin-bottom: 20px;
+
+          .commentReplied__showLess,
+          .commentReplied__showMore {
+            color: $text-active;
+            cursor: pointer;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .commentReplied {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: $group-header-color;
+            display: flex;
+            width: 100%;
+
+            .commentReplied__avatar {
+              img {
+                width: 40px;
+                height: 40px;
+              }
+            }
+
+            .commentReplied__information {
+              padding-left: 15px;
+              width: 100%;
+
+              .commentReplied__header {
+                display: flex;
+                justify-content: space-between;
+
+                span {
+                  padding-left: 15px;
+                  color: $grey-4;
+                  font-size: 13px;
+                }
+
+                .commentReplied__service {
+                  .deteleService {
+                    cursor: pointer;
+                    transition: .3s;
+
+                    svg {
+                      font-size: 20px;
+
+                    }
+
+                    &:hover {
+                      svg {
+                        color: $error;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .comment__service {
+        svg {
+          font-size: 20px;
+        }
+      }
+    }
+
+
+  }
+}

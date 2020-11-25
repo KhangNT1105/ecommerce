@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormDropdown /> snapshots render with empty current value 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="form-dropdown dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    test
+  </button>
+  <div
+    aria-hidden={true}
+    className="dropdown-menu"
+    role="menu"
+    tabIndex="-1"
+  />
+</div>
+`;
+
+exports[`<FormDropdown /> snapshots render with male current value 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="form-dropdown dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    Male
+  </button>
+  <div
+    aria-hidden={true}
+    className="dropdown-menu"
+    role="menu"
+    tabIndex="-1"
+  />
+</div>
+`;
+
+exports[`<FormDropdown /> snapshots render with male current value 2`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="form-dropdown dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    Male
+  </button>
+  <div
+    aria-hidden={true}
+    className="dropdown-menu"
+    role="menu"
+    tabIndex="-1"
+  >
+    <button
+      className="dropdown-item"
+      onClick={[Function]}
+      role="menuitem"
+      tabIndex="0"
+      type="button"
+    >
+      <div>
+        test 1
+      </div>
+    </button>
+    <button
+      className="dropdown-item"
+      onClick={[Function]}
+      role="menuitem"
+      tabIndex="0"
+      type="button"
+    >
+      Test
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<FormDropdown /> snapshots render with male current value 3`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="form-dropdown dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    Male
+  </button>
+</div>
+`;

@@ -1,0 +1,36 @@
+@import 'styles/variables.scss';
+@import 'styles/mixin.scss';
+
+.cartBanner {
+  .cartBanner__img {
+    @include displayFlex();
+    background-color: $group-header-color;
+
+    img {
+      height: 274px;
+      object-fit: cover;
+    }
+  }
+
+  .cartBanner__content {
+    @include displayFlex();
+    padding:20px 0;
+    .cartBanner__content--breadcrumb {
+      h1 {
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: $primary-color;
+          height: 2px;
+          width: 50%;
+        }
+      }
+    }
+  }
+}

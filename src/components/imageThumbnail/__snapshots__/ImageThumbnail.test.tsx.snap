@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBox /> snapshots Should Render default Image 1`] = `
+<img
+  alt=""
+  height="auto"
+  src="default-image.svg"
+  width="auto"
+/>
+`;

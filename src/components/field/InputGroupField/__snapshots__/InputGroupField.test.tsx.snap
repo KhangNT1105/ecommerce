@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputGroupField /> snapshots Renders Both Addons correctly 1`] = `
+Array [
+  <div
+    className="px-0 col"
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="input-group-text"
+        >
+          $
+        </span>
+      </div>
+      <input
+        className="form-control"
+        component="input"
+        id="render_input"
+        name="test"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <span
+          className="input-group-text"
+        >
+          .00
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  />,
+]
+`;
+
+exports[`<InputGroupField /> snapshots Renders Both Addons correctly and show error 1`] = `
+Array [
+  <div
+    className="px-0 col"
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="input-group-text"
+        >
+          $
+        </span>
+      </div>
+      <input
+        className="form-control"
+        component="input"
+        id="render_input"
+        name="test"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <span
+          className="input-group-text"
+        >
+          .00
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  >
+    <div
+      className="text-danger invalid-feedback"
+    >
+      Field is required
+    </div>
+  </div>,
+]
+`;
+
+exports[`<InputGroupField /> snapshots Renders Disabled Input with Both Addons correctly 1`] = `
+Array [
+  <div
+    className="px-0 col"
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="input-group-text"
+        >
+          $
+        </span>
+      </div>
+      <input
+        className="form-control"
+        component="input"
+        disabled={true}
+        id="render_input"
+        name="test"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <span
+          className="input-group-text"
+        >
+          .00
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  />,
+]
+`;
+
+exports[`<InputGroupField /> snapshots Renders Left Addon input correctly 1`] = `
+Array [
+  <div
+    className="px-0 col"
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="input-group-text"
+        >
+          @
+        </span>
+      </div>
+      <input
+        className="form-control"
+        component="input"
+        id="render_input"
+        name="test"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  />,
+]
+`;
+
+exports[`<InputGroupField /> snapshots Renders Right Addon input correctly 1`] = `
+Array [
+  <div
+    className="px-0 col"
+  >
+    <div
+      className="input-group"
+    >
+      <input
+        className="form-control"
+        component="input"
+        id="render_input"
+        name="test"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <span
+          className="input-group-text"
+        >
+          $
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  />,
+]
+`;
+
+exports[`<InputGroupField /> snapshots Renders Select with Both Addons correctly 1`] = `
+Array [
+  <div
+    className="px-0 col"
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="input-group-text"
+        >
+          $
+        </span>
+      </div>
+      <select
+        className="form-control"
+        component="input"
+        id="render_input"
+        name="test"
+        onChange={[Function]}
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <span
+          className="input-group-text"
+        >
+          .00
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  />,
+]
+`;
+
+exports[`<InputGroupField /> snapshots Renders Textarea with Both Addons correctly 1`] = `
+Array [
+  <div
+    className="px-0 col"
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="input-group-text"
+        >
+          $
+        </span>
+      </div>
+      <textarea
+        className="form-control"
+        component="input"
+        id="render_input"
+        name="test"
+        onChange={[Function]}
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <span
+          className="input-group-text"
+        >
+          .00
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  />,
+]
+`;

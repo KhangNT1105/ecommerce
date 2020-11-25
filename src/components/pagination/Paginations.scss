@@ -1,0 +1,41 @@
+.paginations-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  .page-link {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .paginations-container {
+    display: flex;
+    justify-content: flex-end;
+
+    .go-to-container {
+      display: flex;
+      padding-right: 20px;
+
+      p {
+        font-size: 15px;
+        padding-right: 10px;
+        padding-top: 3px;
+      }
+
+      input {
+        height: 31px;
+        width: 31px;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .show-results-container {
+    display: flex;
+  }
+}
+
+@media (max-width: 576px){
+  .paginations-wrapper {
+    display: block;
+  }
+}

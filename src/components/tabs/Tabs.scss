@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.nav-tabs {
+  .nav-item {
+
+    .nav-link {
+
+      &.error {
+        border-color: $error $error $white;
+      }
+    }
+  }
+}
+
+.nav {
+  .nav-item {
+    .nav-link {
+      font-size: 22px;
+      color: $grey-4;
+
+      &.active {
+        border-bottom: 3px solid $primary-color;
+        color: $black;
+      }
+    }
+  }
+}

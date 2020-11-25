@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LookupFieldSuggestions> snapshots default render snapshot 1`] = `
+<div
+  className="dropdown "
+  onMouseOut={[MockFunction]}
+>
+  <ul
+    className="suggestions"
+    style={Object {}}
+  >
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      test42@gmail.com
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<LookupFieldSuggestions> snapshots no suggestion 1`] = `
+<div
+  className="dropdown "
+  onMouseOut={[MockFunction]}
+>
+  <ul
+    className="suggestions"
+    style={Object {}}
+  >
+    <li>
+      test abc
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<LookupFieldSuggestions> snapshots render with className is focused 1`] = `
+<div
+  className="dropdown "
+  onMouseOut={[MockFunction]}
+>
+  <ul
+    className="suggestions"
+    style={Object {}}
+  >
+    <li
+      className="focused"
+      onClick={[Function]}
+    >
+      test42@gmail.com
+    </li>
+  </ul>
+</div>
+`;

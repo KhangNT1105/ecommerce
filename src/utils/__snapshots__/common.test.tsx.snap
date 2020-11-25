@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common checkRenderDoubleValue render default 1`] = `
+<React.Fragment>
+   
+  
+</React.Fragment>
+`;
+
+exports[`common checkRenderDoubleValue render with value 1 && value 2 && value 3 1`] = `
+<React.Fragment>
+  abc
+   
+  <b>
+    1
+  </b>
+   - 
+  bcd
+</React.Fragment>
+`;
+
+exports[`common checkRenderDoubleValue render with value 1 && value 2 1`] = `
+<React.Fragment>
+  abc
+   
+   - 
+  bcd
+</React.Fragment>
+`;
+
+exports[`common checkRenderDoubleValue render with value 1 1`] = `
+<React.Fragment>
+  abc
+   
+  
+</React.Fragment>
+`;
+
+exports[`common getPrices should return checkRenderDoubleValue when valueType is RANGE 1`] = `
+<React.Fragment>
+  0
+   
+  
+  100
+</React.Fragment>
+`;

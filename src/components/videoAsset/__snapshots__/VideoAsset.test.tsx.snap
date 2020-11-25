@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video Asset Block renders snapshot correctly 1`] = `
+<div
+  className="video-asset-block"
+>
+  <div
+    className="header"
+  >
+    <span
+      className="title"
+    >
+      Asset 1 URL*:
+    </span>
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="content-header"
+    >
+      <div
+        className="input-group"
+      >
+        <input
+          className="form-control"
+          name="video-url"
+          onChange={[Function]}
+          placeholder="Enter URL here"
+          type="text"
+          value=""
+        />
+        <div
+          className="input-group-prepend"
+        >
+          <button
+            aria-label={null}
+            className="  btn btn-success btn-sm"
+            onClick={[Function]}
+            type="button"
+          >
+            Regenerate
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="content-body"
+    >
+      <div
+        className="content-wrapper"
+      >
+        <video
+          autoPlay={true}
+          controls={true}
+          height="100%"
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          title="Big Buck Bunny"
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

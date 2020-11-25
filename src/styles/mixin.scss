@@ -1,0 +1,73 @@
+@import './variables.scss';
+
+@mixin displayFlex($elem1: flex, $elem2: center, $elem3: center) {
+  display: $elem1;
+  justify-content: $elem2;
+  align-items: $elem3;
+}
+
+@mixin btnCampaign() {
+  background: $background-hover-color-sideBar;
+  border: $background-hover-color-sideBar;
+  border-radius: 2px;
+  min-height: 40px;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+
+@mixin displayFlexDirection($elem1: flex, $elem2: center, $elem3: center, $elem4: row) {
+  display: $elem1;
+  justify-content: $elem2;
+  align-items: $elem3;
+  flex-direction: $elem4;
+}
+
+@mixin text($color:$black, $fs:15px, $fw:normal) {
+  color: $color;
+  font-size: $fs;
+  font-weight: $fw;
+}
+
+@mixin button($bc:transparent, $bor:$black, $width:35px, $height:35px, $bor-rad:50%, $color:$black) {
+  background-color: $bc;
+  border: 1px solid $bor;
+  width: $width;
+  height: $height;
+  border-radius: $bor-rad;
+  color: $color;
+  @include displayFlex();
+}
+
+@mixin buttonSelector($bc:$black, $bor:$black, $color:$white) {
+  background-color: $bc;
+  border: 1px solid $bor;
+  color: $color;
+}
+
+@mixin limitLines($lines:2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+
+$breakpoints : (
+    'extra-large':1200px,
+    'large' : 992px,
+    'large-under' : 991px,
+    'medium' : 768px,
+    'medium-under' : 767px,
+    'small' : 576px,
+    'small-under' : 575px,
+);
+@mixin responds-to($breakpoint) {
+    @if map-has-key($map: $breakpoints, $key: $breakpoint) {
+        $value: map-get($map: $breakpoints, $key: $breakpoint);
+        @media screen and (max-width: $value) {
+            @content
+        }
+    }@else {
+        @warn "`{$breakpoint}` isn't in breakpoints";
+    }
+}

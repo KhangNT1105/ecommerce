@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropZonePreview /> snapshots Render with data 1`] = `
+<div
+  className="align-items-center mb-0 mt-0 dropzone--preview"
+  style={Object {}}
+>
+  <div
+    className="dropzone--preview-info d-flex"
+  >
+    <i
+      className="fa fa-times fa-fw text-danger"
+      onClick={[Function]}
+    />
+    <p>
+      <small
+        className="small"
+      >
+        <span
+          className="text-nowrap"
+        >
+          Screen Shot 2020-04-21 at 15.25.27.png
+        </span>
+      </small>
+    </p>
+    <button
+      aria-label={null}
+      className="  btn btn-info btn-sm"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <small
+        className="small"
+      >
+        UPLOAD
+      </small>
+    </button>
+  </div>
+  <div
+    className="dropzone--preview-image"
+    style={
+      Object {
+        "backgroundImage": "url(https://i.pinimg.com/236x/0a/8b/fb/0a8bfb162ef8a917f1e4d4bf5cd08e4c--android-apps-cover-art.jpg)",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<DropZonePreview /> snapshots Render with data and status 1`] = `
+<div
+  className="align-items-center mb-0 mt-0 dropzone--preview"
+  style={
+    Object {
+      "backgroundImage": "url(https://i.pinimg.com/236x/0a/8b/fb/0a8bfb162ef8a917f1e4d4bf5cd08e4c--android-apps-cover-art.jpg)",
+    }
+  }
+/>
+`;

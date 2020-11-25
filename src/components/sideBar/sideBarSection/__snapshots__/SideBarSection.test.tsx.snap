@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBarSection /> snapshots Cover Sidebar section 1`] = `
+<div
+  className="sidebar__section sidebar__section--cover"
+>
+  <div>
+    Hi I'm Cover Sidebar Section
+  </div>
+</div>
+`;
+
+exports[`<SideBarSection /> snapshots Cover and fluid Sidebar section (recommend) 1`] = `
+<div
+  className="sidebar__section sidebar__section--fluid sidebar__section--cover"
+>
+  <div>
+    Hi I'm recommend Sidebar Section
+  </div>
+</div>
+`;
+
+exports[`<SideBarSection /> snapshots Fluid Sidebar section 1`] = `
+<div
+  className="sidebar__section sidebar__section--fluid"
+>
+  <div>
+    Hi I'm Fluid Sidebar Section
+  </div>
+</div>
+`;

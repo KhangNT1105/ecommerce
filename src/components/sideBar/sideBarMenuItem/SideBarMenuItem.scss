@@ -1,0 +1,38 @@
+.sidebar-menu {
+  .sidebar-item-parent {
+    padding: 1rem;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  [class*="sidebar-menu__"] {
+    &.active {
+      overflow: hidden;
+      transform: translateZ(0);
+    }
+  }
+
+  li {
+    & a[class*="sidebar-submenu__"] {
+      padding-left: calc(1.5rem + 1.28571em + 0.5rem);
+    }
+  }
+
+  [class*='sidebar--collapsed'] & {
+    &[class*='sidebar-menu--slim'] {
+      li[class*='sidebar-submenu__entry'] {
+        & > a[class*="sidebar-submenu__entry__link"] {
+          padding-left: 1rem;
+        }
+      }
+
+      [class*="sidebar-menu__"] {
+        &.active {
+          overflow: inherit;
+        }
+      }
+    }
+  }
+}

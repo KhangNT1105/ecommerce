@@ -1,0 +1,45 @@
+@import 'styles/variables.scss';
+
+.homeHighlight {
+  padding: 30px 0;
+
+  .homeHighlight__strengthPoints {
+    .strengthPoint {
+      display: flex;
+      align-items: center;
+      padding: 30px 25px;
+      border: 1px solid $border-color-highlight;
+      transition: .3s;
+      border-radius: 5px;
+     
+      &:hover {
+        border: 1px solid $black;
+
+      }
+
+      .strengthPoint__icon {
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .strengthPoint__text {
+        padding-left: 15px;
+
+        h5 {
+          font-weight: 600;
+          font-size: 18px;
+        }
+
+        span {
+          color: $color-subtitle-highlight;
+        }
+      }
+      &.item {
+        height: 150px;
+      }
+    }
+   
+  }
+}

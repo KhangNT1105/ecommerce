@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBarBottom /> snapshots default render 1`] = `
+<div
+  className="sidebar__section pt-0"
+>
+  <div
+    className="d-block"
+  >
+    <div
+      className="avatar-image avatar-image--loaded"
+    >
+      <div
+        className="avatar avatar--lg avatar-image__image"
+      >
+        <div
+          className="avatar__content"
+        >
+          <img
+            alt=""
+            src="avatar"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="btn-group"
+    onKeyDown={[Function]}
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label={null}
+      className="pl-0 pb-0 btn-profile sidebar__link btn btn-link"
+      onClick={[Function]}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+      type="button"
+    >
+      John
+      <i
+        className="fa fa-angle-down ml-2"
+      />
+    </button>
+    <div
+      aria-hidden={true}
+      className="dropdown-menu"
+      role="menu"
+      style={
+        Object {
+          "left": 0,
+          "opacity": 0,
+          "pointerEvents": "none",
+          "position": "absolute",
+          "top": 0,
+        }
+      }
+      tabIndex="-1"
+    >
+      <h6
+        className="dropdown-header"
+        onClick={[Function]}
+        tabIndex="-1"
+      >
+        John
+      </h6>
+      <div
+        className="dropdown-divider"
+        onClick={[Function]}
+        tabIndex="-1"
+      />
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        My Profile
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        Settings
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        Billings
+      </button>
+      <div
+        className="dropdown-divider"
+        onClick={[Function]}
+        tabIndex="-1"
+      />
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        <i
+          className="fa fa-fw fa-sign-out mr-2"
+        />
+        Sign Out
+      </button>
+    </div>
+  </div>
+  <div
+    className="small sidebar__link--muted"
+  >
+    Software Engineer
+  </div>
+</div>
+`;

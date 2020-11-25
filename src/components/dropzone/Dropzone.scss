@@ -1,0 +1,11 @@
+/* stylelint-disable */
+.dropzone--wrapper {
+  .dropzone .error-container {
+    .small {
+      display: inline-block;
+    }
+  }
+  .dropzone--preview-info {
+    cursor: pointer;
+  }
+}

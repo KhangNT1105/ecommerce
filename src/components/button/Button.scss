@@ -1,0 +1,20 @@
+@import 'styles/variables.scss';
+
+.btn {
+  min-height: 44px;
+
+  &.btn-sm {
+    min-height: 34px;
+    border-radius: $btn-border-radius;
+  }
+
+  &.btn-info:focus {
+    background-color: $info-color;
+    border-color: transparent;
+  }
+
+  &.btn-secondary:focus {
+    background-color: $secondary-color;
+    border-color: transparent;
+  }
+}

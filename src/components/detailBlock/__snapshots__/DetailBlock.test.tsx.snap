@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Detail Block snapshots default render 1`] = `
+<div
+  className="block"
+>
+  <div
+    className="block-header"
+  >
+    <span
+      className="block-title"
+    />
+  </div>
+  <div
+    className="block-content"
+  >
+    <div
+      className="d-table content-item"
+    />
+  </div>
+</div>
+`;
+
+exports[`component Detail Block snapshots render with props block Title 1`] = `
+<div
+  className="block"
+>
+  <div
+    className="block-header"
+  >
+    <span
+      className="block-title"
+    >
+      Text
+    </span>
+  </div>
+  <div
+    className="block-content"
+  >
+    <div
+      className="d-table content-item"
+    />
+  </div>
+</div>
+`;

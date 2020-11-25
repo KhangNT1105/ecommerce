@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterTag /> render snapshot correctly 1`] = `
+<div
+  className="filter-tag undefined"
+>
+  <div
+    className="filter-tag__button"
+  >
+    <div
+      className="dropdown-button"
+      onClick={[Function]}
+    >
+      test
+       
+      <div
+        className="icon-down"
+      />
+    </div>
+    <div
+      className="value"
+    >
+      test1
+       
+      <button
+        className="tag-button"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-times"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="close-icon"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-fw fa-times "
+    />
+  </div>
+</div>
+`;

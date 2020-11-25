@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component FilterCommon renders snapshot correctly 1`] = `
+<div
+  className="filter-common undefined"
+>
+  <FilterBlock
+    filterList={
+      Array [
+        "id",
+        "name",
+        "this is a very long item",
+      ]
+    }
+  />
+  <FilterTag
+    className="filter-tag"
+    suggestionList={
+      Array [
+        "test",
+      ]
+    }
+    tagName="test"
+    values={
+      Array [
+        "test",
+      ]
+    }
+  />
+</div>
+`;

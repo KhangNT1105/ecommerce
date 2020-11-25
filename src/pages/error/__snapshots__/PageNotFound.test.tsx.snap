@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNotFound Page snapshots render PageNotFound Page 1`] = `
+<div
+  className="fullscreen anonymous-layout"
+>
+  <div
+    className="fullscreen__section fullscreen__section--center"
+  >
+    <div
+      className="mb-4 error-cant-found"
+    >
+      <div
+        className="mb-4 text-center"
+      >
+        <div
+          className="mb-4 text-center"
+        >
+          <i
+            className="fa fa-close fa-3x text-danger"
+          />
+        </div>
+        <h5
+          className="text-center mb-4"
+        >
+          ERROR.404
+        </h5>
+        <div
+          className="text-center"
+        >
+          <a
+            className="text-decoration-none"
+            href="/"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-left mr-2"
+            />
+            <span>
+              ACCESS_DENIED_CTA
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

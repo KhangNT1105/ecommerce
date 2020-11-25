@@ -1,0 +1,33 @@
+@import "../../../styles/variables.scss";
+
+.layout-sidebar {
+  transition: all $slide-duration ease;
+}
+
+.layout {
+  &-content {
+    height: auto;
+    min-height: 87%;
+  }
+
+  & &-wrap {
+    &-navbar {
+      left: 0;
+    }
+  }
+
+  &-footer {
+    width: 100%;
+    min-height: auto;
+    bottom: 0;
+    padding: 10px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    p {
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+}

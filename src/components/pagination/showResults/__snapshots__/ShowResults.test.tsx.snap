@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowResults /> snapshots render null when isShowReults is false 1`] = `null`;
+
+exports[`<ShowResults /> snapshots render snapshot correctly 1`] = `
+<div
+  className="show-results"
+>
+  SHOW_RESULTS
+</div>
+`;

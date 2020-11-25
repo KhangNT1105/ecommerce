@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag/> Tag snapshot snapshots Should render correctly 1`] = `
+Array [
+  <li>
+    a@gmail.com
+    <button
+      className="tag-button"
+      onClick={[Function]}
+      type="button"
+    >
+      ×
+    </button>
+  </li>,
+  <li>
+    b@gmail.com
+    <button
+      className="tag-button"
+      onClick={[Function]}
+      type="button"
+    >
+      ×
+    </button>
+  </li>,
+]
+`;

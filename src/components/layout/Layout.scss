@@ -1,0 +1,31 @@
+@import "styles/variables.scss";
+
+.layout {
+  min-height: 100vh;
+  background: $bodyBackgroundColor;
+  display: flex;
+
+  &-main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    max-width: calc(100% - #{$sidebarWidth});
+  }
+
+  &-left {
+    display: flex;
+    max-width: $sidebarWidth;
+    background: $primary;
+
+    &.layout-left-small {
+      ~ .layout-main {
+        max-width: calc(100% - #{$sidebarWidthSmall});
+      }
+    }
+  }
+
+  &-main-body {
+    flex-grow: 1;
+    position: relative;
+  }
+}

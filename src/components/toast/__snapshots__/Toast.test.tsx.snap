@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast is testing... Render toast successfully 1`] = `
+<div
+  className="Toastify"
+/>
+`;
+
+exports[`getContentToast test snapShot 1`] = `
+<div
+  className="media"
+>
+  <div
+    className="mr-3 media-left media-middle"
+  >
+    <i
+      className="fa fa-fw fa-2x fa-check"
+      onClick={[MockFunction]}
+    />
+  </div>
+  <div
+    className="media-body"
+  >
+    <h6
+      className="media-heading"
+    >
+      Thành công
+    </h6>
+    <p>
+      success
+    </p>
+  </div>
+</div>
+`;

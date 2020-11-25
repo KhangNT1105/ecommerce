@@ -1,0 +1,18 @@
+@import 'styles/variables.scss';
+
+.checkoutForm {
+
+  .left {
+    background-color: $grey-1;
+    padding: 20px 40px;
+    border-radius: 15px;
+
+    h1 {
+      font-size: 25px;
+      border-bottom: 1px solid $border-color-highlight;
+      padding-bottom: 10px;
+    }
+
+  }
+
+}

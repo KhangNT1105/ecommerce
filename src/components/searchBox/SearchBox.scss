@@ -1,0 +1,36 @@
+@import "styles/variables.scss";
+
+:root {
+  .search-box {
+    align-items: center;
+
+    & > div {
+      &:first-child {
+        padding-right: 10px;
+      }
+
+      &:last-child {
+        padding-left: 0;
+      }
+    }
+
+    .form-group {
+      margin-bottom: 0;
+    }
+
+    .input-group {
+      .form-control {
+        padding: 1rem 0.75rem;
+        border-right: 1px solid $border-input;
+        background-color: $white;
+      }
+    }
+
+    .search-box-button-wrapper {
+      button {
+        display: block;
+        margin-left: auto;
+      }
+    }
+  }
+}

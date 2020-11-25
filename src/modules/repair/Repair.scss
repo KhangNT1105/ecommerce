@@ -1,0 +1,37 @@
+@import "../../styles/cssFunction.scss";
+
+.RepairWrapper {
+  .titleRepair {
+    position: relative;
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 70px;
+      height: 2px;
+      background-color: #9cc25d;
+    }
+  }
+  .red {
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+  }
+  ul {
+    list-style: none;
+    font-size: 19px;
+    padding: 0;
+    text-decoration: underline;
+    font-weight: bold;
+    li {
+      @include displayFlex(flex, flex-start, center);
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

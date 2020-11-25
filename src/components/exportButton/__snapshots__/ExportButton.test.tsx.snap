@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Export Button Component testing... snapshots Export to CSV file with mock server api 1`] = `
+<button
+  aria-label={null}
+  className="  btn btn-primary btn-sm"
+  disabled={false}
+  onClick={[Function]}
+  type="csv"
+/>
+`;
+
+exports[`Export Button Component testing... snapshots Export to XLS file mock server api 1`] = `
+<button
+  aria-label={null}
+  className="  btn btn-primary btn-sm"
+  disabled={false}
+  onClick={[Function]}
+  type="xls"
+/>
+`;

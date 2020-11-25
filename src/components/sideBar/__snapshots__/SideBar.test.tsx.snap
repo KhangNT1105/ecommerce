@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBar /> snapshots default render 1`] = `
+<div
+  className="sidebar sidebar--animations-enabled sidebar--animate-entry-complete"
+>
+  <div
+    className="sidebar__close"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-times-circle fa-fw"
+    />
+  </div>
+  <div
+    className="sidebar__section"
+  >
+    <div
+      className="sidebar__brand"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="ACEXIS_LOGO_ALT"
+          className="logo-slim d-none"
+          src=""
+        />
+        <img
+          alt="ACEXIS_LOGO_ALT"
+          className=""
+          src=""
+        />
+        <small
+          className="d-block small"
+        >
+          <strong>
+            CMS_TITLE
+          </strong>
+        </small>
+      </a>
+    </div>
+  </div>
+  <div
+    className="sidebar__mobile-fluid"
+  >
+    <div
+      className="sidebar__section sidebar__section--fluid sidebar__section--cover"
+    >
+      <h6
+        className="pl-2"
+      >
+        <i
+          className="fa fa-fw fa-youtube-play mr-2"
+        />
+        SIDEBAR_MENU.CONTENT
+      </h6>
+      <ul
+        className="sidebar-menu"
+      >
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-film"
+            />
+            <span>
+              SIDEBAR_MENU.SHOWS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-calendar-check-o"
+            />
+            <span>
+              SIDEBAR_MENU.SCHEDULES
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-television"
+            />
+            <span>
+              SIDEBAR_MENU.CHANNELS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-tags"
+            />
+            <span>
+              SIDEBAR_MENU.CATALOGS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-th-large"
+            />
+            <span>
+              SIDEBAR_MENU.CATEGORIES
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-user-secret"
+            />
+            <span>
+              SIDEBAR_MENU.CASTINGS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-video-camera"
+            />
+            <span>
+              SIDEBAR_MENU.VIDEO_CLIPS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-list-alt"
+            />
+            <span>
+              SIDEBAR_MENU.VIDEO_PLAYLISTS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-refresh"
+            />
+            <span>
+              SIDEBAR_MENU.UPDATES
+            </span>
+          </div>
+        </li>
+      </ul>
+      <h6
+        className="pl-2"
+      >
+        <i
+          className="fa fa-fw fa-paperclip mr-2"
+        />
+        SIDEBAR_MENU.LICENSES
+      </h6>
+      <ul
+        className="sidebar-menu"
+      >
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-suitcase"
+            />
+            <span>
+              SIDEBAR_MENU.CONTRACTS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-male"
+            />
+            <span>
+              SIDEBAR_MENU.LICENSORS
+            </span>
+          </div>
+        </li>
+      </ul>
+      <h6
+        className="pl-2"
+      >
+        <i
+          className="fa fa-fw fa-user-plus mr-2"
+        />
+        SIDEBAR_MENU.USER_MANAGEMENT
+      </h6>
+      <ul
+        className="sidebar-menu"
+      >
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-user"
+            />
+            <span>
+              SIDEBAR_MENU.SYSTEM_USERS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-users"
+            />
+            <span>
+              SIDEBAR_MENU.USER_GROUPS
+            </span>
+          </div>
+        </li>
+      </ul>
+      <h6
+        className="pl-2"
+      >
+        <i
+          className="fa fa-fw fa-cogs mr-2"
+        />
+        SIDEBAR_MENU.SYSTEM_CONFIGURATION
+      </h6>
+      <ul
+        className="sidebar-menu"
+      >
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-credit-card"
+            />
+            <span>
+              SIDEBAR_MENU.PAYMENT_GATEWAYS
+            </span>
+          </div>
+        </li>
+        <li
+          className="sidebar-submenu__entry"
+        >
+          <div
+            className="sidebar-submenu__entry__link undefined"
+            onClick={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          >
+            <i
+              className="fa fa-fw fa-shield"
+            />
+            <span>
+              SIDEBAR_MENU.RISK_ENGINE_RULES_CONFIG
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

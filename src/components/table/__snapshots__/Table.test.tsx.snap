@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> snapshot render snapshot correctly 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-striped undefined"
+  >
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th
+          className="name"
+        >
+          Name
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          <div>
+            Creator 
+            <b>
+              awesome
+            </b>
+          </div>
+        </th>
+        <th>
+          Action
+        </th>
+        <th>
+          Spinner
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          Nate
+        </td>
+        <td>
+          active
+        </td>
+        <td>
+          Will Smith
+        </td>
+        <td>
+          <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </td>
+        <td>
+          <div
+            className="spinner-border text-primary"
+            role="status"
+          >
+            <span
+              className="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          River
+        </td>
+        <td>
+          active
+        </td>
+        <td>
+          Will Smith
+        </td>
+        <td>
+          <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </td>
+        <td>
+          <div
+            className="spinner-border text-danger"
+            role="status"
+          >
+            <span
+              className="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          3
+        </td>
+        <td>
+          Light
+        </td>
+        <td>
+          active
+        </td>
+        <td>
+          Will Smith
+        </td>
+        <td>
+          <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </td>
+        <td>
+          <div
+            className="spinner-border text-info"
+            role="status"
+          >
+            <span
+              className="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          4
+        </td>
+        <td>
+          Jasmine
+        </td>
+        <td>
+          active
+        </td>
+        <td>
+          Will Smith
+        </td>
+        <td>
+          <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </td>
+        <td>
+          <div
+            className="spinner-border text-warning"
+            role="status"
+          >
+            <span
+              className="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<Table /> snapshot snapshots test with empty data 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-striped undefined"
+  >
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th
+          className="name"
+        >
+          Name
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          <div>
+            Creator 
+            <b>
+              awesome
+            </b>
+          </div>
+        </th>
+        <th>
+          Action
+        </th>
+        <th>
+          Spinner
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          className="text-center"
+          colSpan={6}
+        >
+          NO_DATA
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

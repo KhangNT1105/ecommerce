@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountryLookup /> snapshots render snapshot correctly 1`] = `
+<div
+  className="country-lookup"
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+  />
+  <div>
+    <div
+      onClick={[Function]}
+    >
+      Vietnam
+    </div>
+  </div>
+</div>
+`;

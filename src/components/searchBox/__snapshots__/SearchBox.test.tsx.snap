@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBox /> snapshots default render 1`] = `
+<div
+  className="search-box  row"
+>
+  <div
+    className="col-9"
+  >
+    <div
+      className="mr-2 input-group input-group-sm"
+    >
+      <input
+        className="form-control"
+        name="search-box"
+        onChange={[Function]}
+        placeholder="Search for a show by name or id"
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-prepend"
+      >
+        <div
+          className="input-group-text"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-search fa-fw"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchBox /> snapshots readonly render 1`] = `
+<div
+  className="search-box  row"
+>
+  <div
+    className="col-9"
+  >
+    <div
+      className="mr-2 input-group input-group-sm"
+    >
+      <input
+        className="read-only form-control"
+        name="search-box"
+        onChange={[Function]}
+        placeholder="Search for a show by name or id"
+        readOnly={true}
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-prepend"
+      >
+        <div
+          className="input-group-text"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-search fa-fw"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

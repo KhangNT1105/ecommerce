@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ColorPicker/> snapshots render ColorPicker 1`] = `
+<div
+  className="w-100 d-flex mt-2 color-picker"
+>
+  <div
+    className="d-flex"
+  >
+    <span
+      className="preview-color"
+      style={
+        Object {
+          "backgroundColor": "",
+        }
+      }
+    />
+    
+  </div>
+  <div
+    className="ml-auto"
+  >
+    <span
+      className="pick-button"
+      onClick={[Function]}
+    >
+      PICK
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoleFormFields component snapshots test snapshot - form castingEdit, user permissions ACTIVATE_CAST 1`] = `
+<div>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnCancel"
+    onClick={[Function]}
+    type="button"
+  >
+    Cancel
+  </button>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnSave"
+    onClick={[Function]}
+    type="button"
+  >
+    Save
+  </button>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnActivate"
+    onClick={[Function]}
+    type="button"
+  >
+    Activate
+  </button>
+</div>
+`;
+
+exports[`RoleFormFields component snapshots test snapshot - form castingEdit, user permissions DEACTIVATE_CAST 1`] = `
+<div>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnBack"
+    onClick={[Function]}
+    type="button"
+  >
+    Back
+  </button>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnDeactivate"
+    onClick={[Function]}
+    type="button"
+  >
+    Deactivate
+  </button>
+</div>
+`;
+
+exports[`RoleFormFields component snapshots test snapshot - form userGroupCreate, user permissions CREATE_USERGROUP 1`] = `
+<div>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnCancel"
+    onClick={[Function]}
+    type="button"
+  >
+    Cancel
+  </button>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnSave"
+    onClick={[Function]}
+    type="button"
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`RoleFormFields component snapshots test snapshot - form userGroupCreate, user permissions VIEW_USERGROUP 1`] = `<div />`;
+
+exports[`RoleFormFields component snapshots test snapshot - form userGroupEdit, user permissions DELETE_USERGROUP 1`] = `
+<div>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnBack"
+    onClick={[Function]}
+    type="button"
+  >
+    Back
+  </button>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnDelete"
+    onClick={[Function]}
+    type="button"
+  >
+    Delete
+  </button>
+</div>
+`;
+
+exports[`RoleFormFields component snapshots test snapshot - form userGroupEdit, user permissions EDIT_USERGROUP 1`] = `
+<div>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnCancel"
+    onClick={[Function]}
+    type="button"
+  >
+    Cancel
+  </button>
+  <button
+    aria-label={null}
+    className="  btn btn-info btn-sm"
+    name="btnSave"
+    onClick={[Function]}
+    type="button"
+  >
+    Save
+  </button>
+</div>
+`;

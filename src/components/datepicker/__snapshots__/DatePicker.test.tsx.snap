@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatePicker /> snapshots default render 1`] = `
+<div
+  className="date-picker "
+>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <input
+        className="form-control "
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <span
+    className="icon-calendar"
+  />
+</div>
+`;
+
+exports[`<DatePicker /> snapshots render with props name 1`] = `
+<div
+  className="date-picker "
+>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <input
+        className="form-control "
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <span
+    className="icon-calendar"
+  />
+</div>
+`;
+
+exports[`<DatePicker /> snapshots render with props readOnly 1`] = `
+<div
+  className="date-picker "
+>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <input
+        className="form-control read-only"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        readOnly={true}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <span
+    className="icon-calendar"
+  />
+</div>
+`;
+
+exports[`<DatePicker /> snapshots render with props validate 1`] = `
+Array [
+  <div
+    className="date-picker invalid"
+  >
+    <div
+      className="react-datepicker-wrapper"
+    >
+      <div
+        className="react-datepicker__input-container"
+      >
+        <input
+          className="form-control "
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <span
+      className="icon-calendar"
+    />
+  </div>,
+  <div
+    className="invalid-feedback"
+  />,
+]
+`;

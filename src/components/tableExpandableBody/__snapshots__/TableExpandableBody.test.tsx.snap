@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableExpandableBody test snapshot snapshots render with props 1`] = `
+<tbody>
+  <tr
+    onClick={[Function]}
+  >
+    <td>
+      <i
+        className="icon-arrow-right"
+      />
+    </td>
+    <td>
+      1
+    </td>
+    <td>
+      Nate
+    </td>
+    <td>
+      Will Smith
+    </td>
+    <td>
+      <div>
+        <button
+          className="btn btn-info"
+        >
+          Detail
+        </button>
+        <button
+          className="btn btn-danger"
+        >
+          Delete
+        </button>
+      </div>
+    </td>
+    <td>
+      <div
+        className="spinner-border text-primary"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    </td>
+  </tr>
+  <tr
+    onClick={[Function]}
+  >
+    <td>
+      <i
+        className="icon-arrow-right"
+      />
+    </td>
+    <td>
+      2
+    </td>
+    <td>
+      River
+    </td>
+    <td>
+      Will Smith
+    </td>
+    <td>
+      <div>
+        <button
+          className="btn btn-info"
+        >
+          Detail
+        </button>
+        <button
+          className="btn btn-danger"
+        >
+          Delete
+        </button>
+      </div>
+    </td>
+    <td>
+      <div
+        className="spinner-border text-danger"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    </td>
+  </tr>
+  <tr
+    onClick={[Function]}
+  >
+    <td>
+      <i
+        className="icon-arrow-right"
+      />
+    </td>
+    <td>
+      3
+    </td>
+    <td>
+      Light
+    </td>
+    <td>
+      Will Smith
+    </td>
+    <td>
+      <div>
+        <button
+          className="btn btn-info"
+        >
+          Detail
+        </button>
+        <button
+          className="btn btn-danger"
+        >
+          Delete
+        </button>
+      </div>
+    </td>
+    <td>
+      <div
+        className="spinner-border text-info"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    </td>
+  </tr>
+  <tr
+    onClick={[Function]}
+  >
+    <td>
+      <i
+        className="icon-arrow-right"
+      />
+    </td>
+    <td>
+      4
+    </td>
+    <td>
+      Jasmine
+    </td>
+    <td>
+      Will Smith
+    </td>
+    <td>
+      <div>
+        <button
+          className="btn btn-info"
+        >
+          Detail
+        </button>
+        <button
+          className="btn btn-danger"
+        >
+          Delete
+        </button>
+      </div>
+    </td>
+    <td>
+      <div
+        className="spinner-border text-warning"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    </td>
+  </tr>
+</tbody>
+`;

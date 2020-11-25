@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomInputField /> snapshots default render 1`] = `
+Array [
+  <div
+    className="pl-20 col"
+  >
+    <div
+      className="custom-checkbox custom-control"
+      hidden={false}
+    >
+      <input
+        aria-invalid={false}
+        className="custom-control-input"
+        component="input"
+        disabled={false}
+        id="render_custom_checkbox"
+        name="test"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="custom-control-label"
+        htmlFor="render_custom_checkbox"
+      >
+        Custom Input
+      </label>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  />,
+]
+`;
+
+exports[`<CustomInputField /> snapshots render show error text while only touched or processing handle change 1`] = `
+Array [
+  <div
+    className="pl-20 col"
+  >
+    <div
+      className="custom-checkbox custom-control"
+      hidden={false}
+    >
+      <input
+        aria-invalid={true}
+        className="is-invalid custom-control-input"
+        component="input"
+        disabled={false}
+        id="render_custom_checkbox"
+        name="test"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="custom-control-label"
+        htmlFor="render_custom_checkbox"
+      >
+        Custom Input
+      </label>
+    </div>
+  </div>,
+  <div
+    className="px-0 text-error col-12"
+  >
+    <div
+      className="text-danger invalid-feedback"
+    >
+      field is required
+    </div>
+  </div>,
+]
+`;

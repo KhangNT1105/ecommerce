@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Editor /> snapshots default render 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="custom-card card"
+  />
+  <br />
+  <div
+    className="quill-contents border_solid_top"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Editor /> snapshots render Snapshot Correctly With HTLM Tag & Style 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="custom-card card"
+  />
+  <br />
+  <div
+    className="quill-contents border_solid_top"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Exercitationem tenetur nihil perspiciatis sunt facilis provident omnis autem. Magni mollitia minus architecto laboriosam autem qui non neque.",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Editor /> snapshots render Snapshot correctly without HTML Tag & Style 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="custom-card card"
+  />
+  <br />
+  <div
+    className="quill-contents border_solid_top"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Exercitationem tenetur nihil perspiciatis sunt facilis provident omnis autem. Magni mollitia minus architecto laboriosam autem qui non neque.",
+      }
+    }
+  />
+</div>
+`;

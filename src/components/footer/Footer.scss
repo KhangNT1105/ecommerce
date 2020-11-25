@@ -1,0 +1,12 @@
+@import 'styles/variables';
+
+.footer {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border-top: 1px solid $footerBorderColor;
+  color: $footerColor;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-weight: 500;
+}

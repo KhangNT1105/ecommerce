@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+.page-login {
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+
+  .header-login {
+    background-color: $body-bg;
+    min-height: 200px;
+    background-image: url(../../assets/images/logo-dark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .login-content {
+    margin-bottom: 36px;
+
+    &-form {
+      max-width: 565px;
+    }
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 36px;
+  }
+
+  .form-group {
+    margin-bottom: 14px;
+  }
+
+  a {
+    color: $body-color;
+    text-decoration: none;
+  }
+
+  .text-error {
+    min-height: 22px;
+  }
+
+  .text-danger {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 78px;
+  }
+
+  .btn {
+    min-width: 113px;
+  }
+
+  .footer {
+    margin-top: auto;
+  }
+}

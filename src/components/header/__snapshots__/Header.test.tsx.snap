@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> snapshots render snapshot correctly 1`] = `
+<nav
+  className="navbar-multi-collapse navbar navbar-expand navbar-light"
+>
+  <div
+    className="navbar-collapse-wrap container-fluid"
+  >
+    <ul
+      className="navbar-nav"
+    >
+      <li
+        className="mr-3 nav-item"
+        onClick={[Function]}
+      >
+        <div
+          className="nav-link"
+        >
+          <i
+            className="fa fa-bars fa-fw"
+          />
+        </div>
+      </li>
+      <li
+        className="d-none d-md-block nav-item"
+      >
+        <span
+          className="navbar-text"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-home"
+            />
+          </a>
+        </span>
+        <BreadCrumb
+          arrowFirst={true}
+          items={
+            Array [
+              Object {
+                "label": "Start",
+                "path": "/",
+              },
+              Object {
+                "label": "Page Link",
+                "path": "/some-link",
+              },
+            ]
+          }
+        />
+      </li>
+    </ul>
+    <ul
+      className="ml-auto navbar-nav"
+    >
+      <li
+        className="dropdown nav-item"
+        onKeyDown={[Function]}
+      >
+        <a
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="nav-link"
+          href="#"
+          onClick={[Function]}
+        >
+          <div
+            className="icon-with-badge undefined"
+          >
+            <i
+              className="fa fa-bell-o fa-fw"
+            />
+            <span
+              className="icon-with-badge__badge badge badge-primary badge-pill"
+            >
+              4
+            </span>
+          </div>
+        </a>
+        <div
+          aria-hidden={true}
+          className="extended-dropdown dropdown-menu dropdown-menu-right"
+          role="menu"
+          style={
+            Object {
+              "width": "100vw",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="extended-dropdown__section d-flex justify-content-between align-items-center"
+          >
+            <h6
+              className="mb-0"
+            >
+              Notifications
+            </h6>
+            <span
+              className="badge badge-secondary badge-pill"
+            >
+              4
+            </span>
+          </div>
+          <div
+            className="extended-dropdown__section extended-dropdown__section--list"
+          >
+            <ul
+              className="list-group"
+            >
+              <li
+                className="list-group-item-action list-group-item"
+              >
+                <div
+                  className="media"
+                >
+                  <div
+                    className="media-left"
+                  >
+                    <span
+                      className="fa-stack fa-lg fa-fw d-flex mr-3"
+                    >
+                      <i
+                        className="fa fa-circle fa-fw fa-stack-2x text-success"
+                      />
+                      <i
+                        className="fa fa-check fa-stack-1x fa-fw text-white"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    className="media-body"
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </div>
+                </div>
+              </li>
+              <li
+                className="list-group-item-action list-group-item"
+              >
+                <div
+                  className="media"
+                >
+                  <div
+                    className="media-left"
+                  >
+                    <span
+                      className="fa-stack fa-lg fa-fw d-flex mr-3"
+                    >
+                      <i
+                        className="fa fa-circle fa-fw fa-stack-2x text-warning"
+                      />
+                      <i
+                        className="fa fa-exclamation fa-stack-1x fa-fw text-white"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    className="media-body"
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </div>
+                </div>
+              </li>
+              <li
+                className="list-group-item-action list-group-item"
+              >
+                <div
+                  className="media"
+                >
+                  <div
+                    className="media-left"
+                  >
+                    <span
+                      className="fa-stack fa-lg fa-fw d-flex mr-3"
+                    >
+                      <i
+                        className="fa fa-circle fa-fw fa-stack-2x text-danger"
+                      />
+                      <i
+                        className="fa fa-close fa-stack-1x fa-fw text-white"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    className="media-body"
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </div>
+                </div>
+              </li>
+              <li
+                className="list-group-item-action list-group-item"
+              >
+                <div
+                  className="media"
+                >
+                  <div
+                    className="media-left"
+                  >
+                    <span
+                      className="fa-stack fa-lg fa-fw d-flex mr-3"
+                    >
+                      <i
+                        className="fa fa-circle fa-fw fa-stack-2x text-primary"
+                      />
+                      <i
+                        className="fa fa-info fa-stack-1x fa-fw text-white"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    className="media-body"
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="extended-dropdown__section text-center"
+          >
+            See All Notifications
+            <i
+              className="fa fa-angle-right fa-fw ml-2"
+            />
+          </div>
+        </div>
+      </li>
+      <div
+        className="ml-2 d-flex align-items-center"
+      >
+        <span>
+          WELCOME,
+        </span>
+        <span
+          className="ml-1 font-weight-bold"
+        >
+          
+        </span>
+      </div>
+      <li
+        className="ml-2 nav-link nav-item"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <i
+          className="fa fa-power-off"
+        />
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

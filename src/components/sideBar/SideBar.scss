@@ -1,0 +1,42 @@
+@import "../../styles/variables";
+
+.layout-sidebar {
+  .sidebar {
+    h6 {
+      color: $drop-down-grey-color;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    &.custom-sidebar-slim {
+      width: auto;
+      height: 100%;
+      min-width: 60px;
+
+      i.fa {
+        margin: 0;
+      }
+
+      ul.sidebar-menu {
+        margin-bottom: 0;
+      }
+    }
+
+    .logo-slim {
+      width: 20px;
+    }
+
+    &-submenu,
+    &-menu {
+      & li {
+        & a:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  small.small {
+    color: $white;
+  }
+}

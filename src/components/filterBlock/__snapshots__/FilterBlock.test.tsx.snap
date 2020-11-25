@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component FilterBlock renders snapshot correctly 1`] = `
+<div>
+  <div
+    className="filter-block__button"
+    onClick={[Function]}
+  >
+    <div>
+      ADD_FILTER
+    </div>
+    <div
+      className="icon-add"
+    />
+  </div>
+</div>
+`;

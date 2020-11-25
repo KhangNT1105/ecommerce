@@ -1,0 +1,92 @@
+@import '../../styles/variables';
+
+.steps {
+  width: 100%;
+  display: flex;
+
+  .steps-item {
+    color: $black;
+    position: relative;
+    display: inline-block;
+    flex: 1;
+    margin-right: 16px;
+    overflow: hidden;
+
+    .steps-item-icon {
+      display: inline-block;
+      border: 1px solid $grey;
+      width: 26px;
+      height: 26px;
+      line-height: 26px;
+      text-align: center;
+      border-radius: 26px;
+      font-size: 14px;
+      margin-right: 8px;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    &.pointer {
+      cursor: pointer;
+    }
+
+    &:last-child {
+      margin-right: 0;
+      flex: none;
+    }
+
+    &.active {
+      .steps-item-icon {
+        background: $status-color-active;
+
+        .steps-icon {
+          color: $white;
+        }
+      }
+
+      .steps-item-title {
+        font-weight: 500;
+      }
+    }
+
+    .steps-item-content {
+      display: inline-block;
+      vertical-align: top;
+
+      .steps-item-title {
+        padding-right: 16px;
+        position: relative;
+        display: inline-block;
+
+        &::after {
+          position: absolute;
+          top: 12px;
+          left: 100%;
+          display: block;
+          width: 9999px;
+          height: 1px;
+          background: #f0f0f0;
+          content: '';
+        }
+      }
+    }
+
+    &.finish {
+      .steps-item-container > .steps-item-content > .steps-item-title::after {
+        background-color: $blue;
+      }
+
+      .steps-item-icon {
+        border-color: $violet;
+        background-color: $white;
+
+        .steps-icon {
+          color: $blue;
+        }
+      }
+    }
+
+    &.wait {
+      color: grey;
+    }
+  }
+}

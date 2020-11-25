@@ -1,0 +1,55 @@
+{
+  "/api/users": "/users",
+  "/api/users/:id": "/users?id=:id",
+
+  "/api/clips": "/clips",
+  "/api/clips/:id": "/clips?id=:id",
+
+  "/bo-auth/logout": "/logout",
+  "/bo-auth/login": "/login",
+  "/bo-auth/refresh-session": "/refreshSession",
+
+  "/api/exportFiles": "/exportFiles",
+
+  "/api/suggestion": "/suggestion",
+
+  "/api/upload": "/upload",
+
+  "/bo-auth/usergroups": "/usergroups",
+  "/bo-auth/usergroups/:id": "/usergroups?id=:id",
+
+  "/bo-core/castings/:id": "/casting",
+  "/bo-core/castings": "/castings",
+
+  "/bo-core/categories": "/categories",
+
+  "/bo-core/channels" : "/channels",
+  "/bo-core/channels/:id": "/channel",
+  "/bo-core/genres*": "/genres",
+
+  "/bo-core/clips" : "/videoClips",
+
+  "/bo-core/catalogs?page=0&size=25": "/catalogs",
+
+  "/bo-auth/paymentgateways/5ec243e3b3650d188f1ef100": "/paymentGatewayEdit",
+  "/shellmoney-configuration/payment-gateways": "/paymentGateways",
+  "/shellmoney-configuration/retrial-configs/payment-gateways/5ec243e3b3650d188f1ef100": "/paymentGatewayRetrialConfig",
+  "/shellmoney-configuration/payment-gateways/5ec243e3b3650d188f1ef100": "/paymentGatewayName",
+  "/shellmoney-configuration/subscription-plans": "/paymentGatewaySubscriptionPlans",
+  "/shellmoney-configuration/subscription-products": "/paymentGatewaySubscriptionProducts",
+
+  "/bo-auth/permissions": "/permissions",
+  "/bo-auth/permissions/:orderBy": "/permissions?sort=:orderBy",
+  "/bo-auth/permissions/:orderBy/:sort": "/permissions?sort=:orderBy,:sort",
+
+  "/api/casts": "/casting",
+  "/licensors": "/licensors",
+  "/activity-log": "/activityLog",
+
+  "/shellmoney-configuration/riskengine/rules": "/riskEngine",
+  "/shellmoney-configuration/riskengine/rules/5ecddf36cab959033b10a42e": "/riskEngineEdit",
+
+  "/bo-core/categories/:id": "/categoryDetail",
+
+  "/bo-auth/categorydata": "/categoryData"
+}

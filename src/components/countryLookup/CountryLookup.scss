@@ -1,0 +1,30 @@
+@import 'styles/variables.scss';
+
+.wrapper-country:focus {
+  outline: none;
+}
+
+.country-lookup {
+  padding: 0 10px;
+  height: calc(200px + 48px);
+  position: relative;
+
+  & > div {
+    position: absolute;
+    top: 47px;
+    max-height: 200px;
+    overflow: auto;
+    width: calc(100% - 20px);
+    background-color: $white;
+    z-index: 1;
+
+    & > div {
+      padding: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $grey-1;
+      }
+    }
+  }
+}

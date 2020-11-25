@@ -1,0 +1,12 @@
+@import 'styles/variables.scss';
+
+.city-lookup-dropdown {
+  &.dropdown-toggle.btn-secondary.disabled {
+    cursor: unset;
+    background-color: $disabledColor;
+
+    &::after {
+      display: none;
+    }
+  }
+}

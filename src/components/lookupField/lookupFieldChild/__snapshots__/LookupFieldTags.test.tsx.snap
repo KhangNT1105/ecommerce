@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LookupFieldTags /> <LookupFieldTags/> -> default render with single is false 1`] = `ShallowWrapper {}`;
+
+exports[`<LookupFieldTags /> <LookupFieldTags/> -> default render with single is true 1`] = `ShallowWrapper {}`;

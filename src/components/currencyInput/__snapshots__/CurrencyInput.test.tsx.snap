@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrencyInput /> snapshots default render 1`] = `
+<div
+  className="input-group"
+>
+  <input
+    aria-invalid={false}
+    className="form-control"
+    maxLength={10}
+    onChange={[Function]}
+    pattern="^\\\\d*(\\\\.\\\\d{0,2})?$"
+    type="text"
+    value="Test value"
+  />
+  <div
+    className="input-group-append"
+  >
+    <span
+      className="input-group-text"
+      data-testid="currency-label"
+    >
+      
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<CurrencyInput /> snapshots render input correctly 1`] = `
+<div
+  className="input-group"
+>
+  <input
+    aria-invalid={false}
+    className="form-control"
+    maxLength={10}
+    onChange={[Function]}
+    pattern="^\\\\d*(\\\\.\\\\d{0,2})?$"
+    type="text"
+    value="Test value"
+  />
+  <div
+    className="input-group-append"
+  >
+    <span
+      className="input-group-text"
+      data-testid="currency-label"
+    >
+      
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<CurrencyInput /> snapshots render label correctly 1`] = `
+<div
+  className="input-group"
+>
+  <input
+    aria-invalid={false}
+    className="form-control"
+    maxLength={10}
+    onChange={[Function]}
+    pattern="^\\\\d*(\\\\.\\\\d{0,2})?$"
+    type="text"
+    value="Test value"
+  />
+  <div
+    className="input-group-append"
+  >
+    <span
+      className="input-group-text"
+      data-testid="currency-label"
+    >
+      test label
+    </span>
+  </div>
+</div>
+`;

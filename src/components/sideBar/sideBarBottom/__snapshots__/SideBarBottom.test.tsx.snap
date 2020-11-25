@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBarBottom /> snapshots default render 1`] = `
+<div
+  className="sidebar__section"
+>
+  <p
+    className="text-muted small"
+  >
+    side bar bottom
+  </p>
+</div>
+`;

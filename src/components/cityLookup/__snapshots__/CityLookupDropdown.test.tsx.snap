@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CityLookupDropdown /> snapshots City Lookup Dropdown readonly snapshot 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="city-lookup-dropdown dropdown-toggle btn btn-secondary disabled"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Ho Chi Minh
+  </button>
+</div>
+`;
+
+exports[`<CityLookupDropdown /> snapshots render snapshot correctly 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="city-lookup-dropdown dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    CITY
+  </button>
+  <div
+    aria-hidden={true}
+    className="wrapper-city dropdown-menu"
+    role="menu"
+    tabIndex="-1"
+  >
+    <div
+      className="city-lookup"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        type="text"
+      />
+      <div>
+        <div
+          onClick={[Function]}
+        >
+          Ho Chi Minh
+        </div>
+        <div
+          onClick={[Function]}
+        >
+          Ha Noi
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

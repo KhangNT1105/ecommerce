@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> snapshots render snapshot correctly with prop active 1`] = `
+Array [
+  <ul
+    className="nav"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        className="active nav-link"
+        onClick={[Function]}
+      >
+        <div
+          className="row"
+        >
+          Row (reactstrap) Component
+        </div>
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        <div>
+          Media Div
+        </div>
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        CLIP_PLAYLISTS
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        SETTING
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        SUMMARY
+      </a>
+    </li>
+  </ul>,
+  <div
+    className="tab-content"
+  >
+    <div
+      className="tab-pane active"
+    >
+      <h1>
+        SHOW INFORMATION
+      </h1>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <h2>
+        MEDIA
+      </h2>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <h3>
+        CLIP PLAYLISTS
+      </h3>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <h4>
+        SETTING
+      </h4>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <div
+        className="col"
+      >
+        Col (reactstrap) Component
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`<Tabs /> snapshots render snapshot correctly with prop active is equal name 1`] = `
+Array [
+  <ul
+    className="nav"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        <div
+          className="row"
+        >
+          Row (reactstrap) Component
+        </div>
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        <div>
+          Media Div
+        </div>
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        CLIP_PLAYLISTS
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        SETTING
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        onClick={[Function]}
+      >
+        SUMMARY
+      </a>
+    </li>
+  </ul>,
+  <div
+    className="tab-content"
+  >
+    <div
+      className="tab-pane"
+    >
+      <h1>
+        SHOW INFORMATION
+      </h1>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <h2>
+        MEDIA
+      </h2>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <h3>
+        CLIP PLAYLISTS
+      </h3>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <h4>
+        SETTING
+      </h4>
+    </div>
+    <div
+      className="tab-pane"
+    >
+      <div
+        className="col"
+      >
+        Col (reactstrap) Component
+      </div>
+    </div>
+  </div>,
+]
+`;

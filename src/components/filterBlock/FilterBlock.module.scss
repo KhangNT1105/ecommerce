@@ -1,0 +1,55 @@
+/* stylelint-disable */
+@import "styles/variables";
+@import "styles/_zIndex.scss";
+
+.filter-block__button {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 1px $border-filter solid;
+  color: $status-color-active;
+  cursor: pointer;
+  font-weight: bold;
+
+  div {
+    padding: 5px 10px;
+    padding-right: 20px;
+  }
+
+  :global(.icon-add) {
+    border-left: 1px $border-filter solid;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.filter-block__filter-list {
+  position: relative;
+  z-index: $zIndexInputTypeFile;
+  & > div {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px $border-filter solid;
+    z-index: 1;
+
+    & > div {
+      border: 1px $border-filter solid;
+      border-bottom: none;
+      padding: 5px 10px;
+      color: $status-color-active;
+      cursor: pointer;
+      background-color: $white;
+
+      &:first-child {
+        border-top: none;
+      }
+
+      &:hover {
+        background-color: $border-filter;
+      }
+    }
+  }
+}

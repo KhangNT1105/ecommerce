@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBarMenuItem /> snapshots Parent Menu with Sub Menu 1`] = `
+<li
+  className="sidebar-menu__entry sidebar-menu__entry--nested"
+>
+  <div
+    className="sidebar-menu__entry__link undefined"
+    onClick={[Function]}
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    <i
+      className="fa fa-fw undefined"
+    />
+    <span>
+      Content
+    </span>
+  </div>
+  <ul
+    className="sidebar-submenu"
+  >
+    <ul
+      className="sidebar-submenu"
+      parent={
+        Object {
+          "title": "Content",
+          "to": undefined,
+        }
+      }
+      subNode={true}
+    >
+      Hi, i'm Submenu
+    </ul>
+  </ul>
+</li>
+`;
+
+exports[`<SideBarMenuItem /> snapshots Sub Menu 1`] = `
+<li
+  className="sidebar-submenu__entry"
+>
+  <a
+    className="sidebar-submenu__entry__link"
+    href="/content/shows"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-fw d-none"
+    />
+    <span>
+      Shows
+    </span>
+  </a>
+</li>
+`;

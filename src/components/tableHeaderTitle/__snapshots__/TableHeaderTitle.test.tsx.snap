@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableHeaderTitle /> snapshots render sortable 1`] = `
+<div
+  className="sortable"
+  onClick={[Function]}
+>
+  test
+   
+  <i
+    className="fa fa-sort"
+  />
+</div>
+`;
+
+exports[`<TableHeaderTitle /> snapshots render with default 1`] = `
+<div
+  className=""
+  onClick={[Function]}
+>
+  test
+   
+</div>
+`;

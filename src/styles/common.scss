@@ -1,0 +1,334 @@
+@import "./variables.scss";
+@import "./zIndex.scss";
+
+@mixin normal-font-style {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+hr {
+  border-color: $borderColor;
+}
+
+.common {
+  &-title {
+    color: $blue;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+  }
+
+  &-form-header {
+    color: $blue;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid $currentUserBg;
+    padding: 12px 24px;
+  }
+
+  &-form-footer {
+    border-top: 1px solid $currentUserBg;
+    padding: 12px 24px;
+    text-align: right;
+  }
+
+  &-form-legend {
+    color: $blue;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  &-loading {
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    z-index: $zIndexCommonLoading;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.group-input-file {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  .invalid-feedback {
+    order: 5;
+  }
+
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  input[type="file"] {
+    max-width: 40px;
+    opacity: 0;
+    position: relative;
+    z-index: $zIndexInputTypeFile;
+    top: 0;
+    right: 0;
+    min-height: 38px;
+  }
+
+  input[type="text"] {
+    flex: 1 1 0%;
+    width: 100%;
+  }
+
+  .btn-browser-fake {
+    background-color: $white;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    border: 1px solid #ccc;
+    padding: 5px 6px;
+    border-radius: 4px;
+    font-weight: normal;
+  }
+
+  input[type=file], /* FF, IE7+, chrome (except button) */
+  input[type=file]::-webkit-file-upload-button {
+    /* chromes and blink button */
+    cursor: pointer;
+  }
+}
+
+.common-form-valid {
+  .form-group {
+    align-items: flex-start;
+  }
+
+  label {
+    max-height: 38px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+form {
+  &.form-inline {
+    padding-top: 12px;
+
+    &:not(.form-inline-upload) {
+      .modal-body {
+        padding-bottom: 24px;
+      }
+    }
+
+    &.form-inline-upload {
+      @extend .common-form-valid;
+    }
+
+    .modal-footer {
+      width: 100%;
+      border-radius: 0 !important;
+    }
+  }
+}
+
+.hide-border-bottom tr:last-child td {
+  border-bottom: none;
+}
+
+.drop-down {
+  &.grey {
+    color: $drop-down-grey-color;
+    background-color: transparent;
+    background-image: none;
+    border-color: $border-input;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $white;
+      background-color: $drop-down-grey-color;
+      border-color: $drop-down-grey-color;
+    }
+  }
+}
+
+.btn.btn-md {
+  font-size: 0.875rem;
+}
+
+@keyframes phone-ringing {
+  0% {
+  }
+  10% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg); 
+  }
+  20% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  30% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+   40% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  50% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+   60% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  70% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+  80% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  90% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+   100% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+}
+
+@-webkit-keyframes phonephone-ringing{
+  0% {
+  }
+  10% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg); 
+  }
+  20% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  30% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+   40% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  50% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+   60% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  70% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+  80% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+  90% {
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);       
+  }
+   100% {
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);       
+  }
+}
+
+.hotline-fixed {
+  position: fixed;
+  right: 12px;
+  bottom: 80px;
+  width: 60px;
+  height: 60px;
+  z-index: 99;
+  background: #e31837;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: none;
+  span {
+    font-size: 1.5rem;
+    color: $white;
+    -webkit-animation: phone-ringing 1.5s infinite;
+    animation: phone-ringing 1.5s infinite;
+  }
+}
+
+@media (max-width: 768px){
+.hotline-fixed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+}
+
+@media (max-width: 576px){
+  .hotline-fixed {
+      width: 45px;
+      height: 45px;
+      span {
+        font-size: 1rem;
+      }
+  }
+  .btn {
+    font-size: 0.65rem;
+    min-height: 30px;
+  }
+  }
+
+

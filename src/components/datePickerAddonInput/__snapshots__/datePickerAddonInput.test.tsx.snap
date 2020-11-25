@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatePickerAddonInput /> snapshots default render 1`] = `
+<div
+  className="input-group"
+>
+  <div
+    className="input-group-prepend"
+  >
+    <div
+      className="input-group-text"
+    >
+      <i
+        className="fa fa-calendar-o"
+      />
+    </div>
+  </div>
+  <input
+    className="form-control"
+    type="text"
+  />
+</div>
+`;

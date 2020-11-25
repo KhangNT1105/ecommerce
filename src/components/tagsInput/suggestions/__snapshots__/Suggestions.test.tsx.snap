@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Suggestions/> Suggestions snapshot snapshots Should render correctly 1`] = `
+<div
+  className="dropdown"
+  onMouseOut={[MockFunction]}
+>
+  <ul
+    className="suggestions"
+  >
+    <li
+      className="focused"
+      onClick={[Function]}
+    >
+      john@gmail.com
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      harry@gmail.com
+    </li>
+  </ul>
+</div>
+`;

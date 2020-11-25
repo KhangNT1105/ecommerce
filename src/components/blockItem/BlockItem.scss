@@ -1,0 +1,28 @@
+@import "styles/variables.scss";
+@import "styles/common.scss";
+
+.tr {
+  display: table-row;
+}
+
+.td {
+  display: table-cell;
+  padding-bottom: 16px;
+}
+
+.infor-line {
+  @include normal-font-style;
+
+  font-size: 14px;
+  line-height: 19px;
+  color: $body-color;
+}
+
+.infor-line.title {
+  font-weight: 900;
+  min-width: 179px;
+}
+
+.infor-line.infor-line-check {
+  display: flex;
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditorCardCustom /> snapshots default render 1`] = `
+<div
+  className="custom-card card"
+>
+  
+</div>
+`;
+
+exports[`<EditorCardCustom /> snapshots render with props 1`] = `
+<div
+  className="custom-card card"
+>
+  Editor Card Custom
+</div>
+`;

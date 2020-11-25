@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Button snapshots render icon-edit-button 1`] = `
+<div
+  className="icon-edit-button"
+  onClick={[MockFunction]}
+>
+  <span
+    className="icon-edit"
+  />
+</div>
+`;
+
+exports[`component Button snapshots render icon-edit-button-disabled 1`] = `
+<div
+  className="icon-edit-button icon-edit-button-disabled"
+  onClick={[MockFunction]}
+>
+  <span
+    className="icon-edit"
+  />
+</div>
+`;

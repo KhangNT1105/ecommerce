@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterByDateRange component testing... snapshots render with default 1`] = `
+<div
+  className="filter-by-daterange-wrapper float-right mt-4 mr-4"
+>
+  <div
+    className="btn-group"
+    onKeyDown={[Function]}
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label={null}
+      className="dropdown-toggle btn btn-outline-secondary btn-sm"
+      onClick={[Function]}
+      type="button"
+    >
+      SELECT_RANGE
+    </button>
+    <div
+      aria-hidden={true}
+      className="dropdown-menu"
+      role="menu"
+      tabIndex="-1"
+    >
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        SELECT_RANGE
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        TODAY
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_7_DAYS
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_30_DAYS
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_WEEK
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_MONTH
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        CUSTOM_RANGE
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FilterByDateRange component testing... snapshots render with default 2`] = `
+<div
+  className="filter-by-daterange-wrapper float-right mt-4 mr-4"
+>
+  <div
+    className="btn-group"
+    onKeyDown={[Function]}
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label={null}
+      className="dropdown-toggle btn btn-outline-secondary btn-sm"
+      onClick={[Function]}
+      type="button"
+    >
+      SELECT_RANGE
+    </button>
+    <div
+      aria-hidden={true}
+      className="dropdown-menu"
+      role="menu"
+      tabIndex="-1"
+    >
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        SELECT_RANGE
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        TODAY
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_7_DAYS
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_30_DAYS
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_WEEK
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        LAST_MONTH
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        CUSTOM_RANGE
+      </button>
+    </div>
+  </div>
+</div>
+`;

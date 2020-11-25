@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountryLookupDropdown /> snapshots Country Lookup Dropdown readonly snapshot 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="country-lookup-dropdown dropdown-toggle btn btn-secondary disabled"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Vietnam
+  </button>
+</div>
+`;
+
+exports[`<CountryLookupDropdown /> snapshots render snapshot correctly 1`] = `
+<div
+  className="dropdown"
+  onKeyDown={[Function]}
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup={true}
+    aria-label={null}
+    className="country-lookup-dropdown dropdown-toggle btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    COUNTRY
+  </button>
+  <div
+    aria-hidden={true}
+    className="wrapper-country dropdown-menu"
+    role="menu"
+    tabIndex="-1"
+  >
+    <div
+      className="country-lookup"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        type="text"
+      />
+      <div>
+        <div
+          onClick={[Function]}
+        >
+          Vietnam
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

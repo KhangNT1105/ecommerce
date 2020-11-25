@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadCrumb /> snapshots default render 1`] = `
+Array [
+  <input
+    autoComplete="off"
+    multiple={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    tabIndex={-1}
+    type="file"
+  />,
+  <button
+    aria-label={null}
+    className="  btn btn-light btn-sm"
+    onClick={[Function]}
+    type="button"
+  >
+    UPLOAD
+  </button>,
+]
+`;

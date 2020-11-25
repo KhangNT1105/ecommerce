@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LookupFieldTag /> snapshots Render without suggestion list snapshot 1`] = `null`;
+
+exports[`<LookupFieldTag /> snapshots default render snapshot 1`] = `
+<div
+  className="suggestions-container"
+>
+  <div
+    className="item"
+  >
+    look up field tag
+    <i
+      className="fa fa-times"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="item"
+  >
+    look up field tag 1
+    <i
+      className="fa fa-times"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="item"
+  >
+    look up field tag 2
+    <i
+      className="fa fa-times"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

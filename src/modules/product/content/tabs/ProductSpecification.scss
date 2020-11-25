@@ -1,0 +1,27 @@
+@import 'styles/variables.scss';
+@import 'styles/mixin.scss';
+
+.productSpecification {
+  padding: 20px 0;
+
+  .productSpecification__content {
+    align-items: center;
+
+    .text {
+      p {
+        line-height: 27px;
+        font-size: 16px;
+        color: $grey-4;
+
+      }
+    }
+
+    .image {
+      .productSpecification__img {
+        background-color: $group-header-color;
+        @include displayFlex();
+        min-height: 550px;
+      }
+    }
+  }
+}

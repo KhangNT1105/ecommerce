@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input File /> snapshots render Form Feedback 1`] = `
+Array [
+  <input
+    accept="accept"
+    aria-invalid={false}
+    className="form-control"
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value="Test value"
+  />,
+  <div
+    className="invalid-feedback"
+  >
+    ERROR_EXTENSION
+     
+    
+  </div>,
+  <div
+    className="invalid-feedback"
+  >
+    ERROR_LIMIT_SIZE
+  </div>,
+]
+`;
+
+exports[`<Input File /> snapshots render button 1`] = `
+Array [
+  <input
+    aria-invalid={true}
+    className="is-invalid form-control"
+    disabled={false}
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value="Test value"
+  />,
+  <div
+    className="invalid-feedback"
+  >
+    true
+  </div>,
+]
+`;
+
+exports[`<Input File /> snapshots render disabled button 1`] = `
+<input
+  aria-invalid={false}
+  className="form-control"
+  disabled={true}
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value="Test value"
+/>
+`;

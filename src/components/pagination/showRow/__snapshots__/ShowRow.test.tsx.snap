@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowRow /> snapshots render snapshot correctly 1`] = `
+<div
+  className="show-row-container"
+>
+  <p>
+    <span>
+      SHOW_ROWS
+    </span>
+  </p>
+  <div
+    className="dropup dropdown"
+    onKeyDown={[Function]}
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      aria-label={null}
+      className="dropdown-toggle btn btn-secondary"
+      onClick={[Function]}
+      type="button"
+    >
+      25
+    </button>
+    <div
+      aria-hidden={true}
+      className="dropdown-menu"
+      role="menu"
+      tabIndex="-1"
+    >
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        15
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        18
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="0"
+        type="button"
+      >
+        21
+      </button>
+    </div>
+  </div>
+</div>
+`;

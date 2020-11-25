@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Button snapshots default render 1`] = `
+<div
+  aria-hidden={true}
+  className="extended-dropdown dropdown-menu"
+  role="menu"
+  style={
+    Object {
+      "width": "100vw",
+    }
+  }
+  tabIndex="-1"
+>
+  
+</div>
+`;
+
+exports[`component Button snapshots render with props className and right is false 1`] = `
+<div
+  aria-hidden={true}
+  className="dropdown extended-dropdown dropdown-menu"
+  role="menu"
+  style={
+    Object {
+      "width": "100vw",
+    }
+  }
+  tabIndex="-1"
+>
+  Test Dropdown
+</div>
+`;
+
+exports[`component Button snapshots render with props className and right is true 1`] = `
+<div
+  aria-hidden={true}
+  className="dropdown extended-dropdown dropdown-menu dropdown-menu-right"
+  role="menu"
+  style={
+    Object {
+      "width": "100vw",
+    }
+  }
+  tabIndex="-1"
+>
+  Test Dropdown
+</div>
+`;

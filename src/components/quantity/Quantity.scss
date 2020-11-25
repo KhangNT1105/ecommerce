@@ -1,0 +1,32 @@
+@import 'styles/variables.scss';
+@import 'styles/mixin.scss';
+
+.quantity {
+  width: 112px;
+
+  .quantity__content {
+    border: 1px solid $grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon {
+
+      height: 50px;
+      @include displayFlex();
+      padding: 0 10px;
+      cursor: pointer;
+
+      &:hover {
+        svg {
+          color: $primary-color;
+        }
+      }
+
+      svg {
+        font-size: 18px;
+        transition: 0.3s;
+      }
+    }
+  }
+}

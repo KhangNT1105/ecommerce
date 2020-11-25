@@ -1,0 +1,15 @@
+@import 'styles/variables.scss';
+
+.checkoutContent {
+  button {
+      margin-top: 15px;
+    width: 100%;
+    background-color: $black;
+    font-size: 25px;
+    transition: .3s;
+    border: none;
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}

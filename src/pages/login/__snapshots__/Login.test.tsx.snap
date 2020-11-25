@@ -1,0 +1,692 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm snapshot snapshots Render login form 1`] = `
+<div
+  className="loginWrapper signUpForm"
+>
+  <header
+    className="customHeader white"
+  >
+    <div
+      className="customHeader__container"
+    >
+      <div
+        className="container-fluid "
+      >
+        <div
+          className="row customHeader__content"
+        >
+          <div
+            className="col-5 col-xl-1 customHeader__left"
+            style={
+              Object {
+                "paddingLeft": 0,
+              }
+            }
+          >
+            <div
+              className="customHeader__language"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                <img
+                  alt="logo"
+                  src="logo2.png"
+                />
+              </a>
+            </div>
+            <div
+              className="customHeader__iconsResponsive"
+            >
+              <svg
+                className="text__animation"
+                fill="currentColor"
+                height="1em"
+                onClick={[Function]}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+                />
+              </svg>
+              <svg
+                className="text__animation"
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="8"
+                />
+                <line
+                  x1="21"
+                  x2="16.65"
+                  y1="21"
+                  y2="16.65"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="customHeader__middle col-2 col-xl-7"
+          >
+            <div
+              className="customHeader__navigation"
+            >
+              <div
+                className="navbar__item"
+              >
+                <a
+                  aria-current="page"
+                  className="navbar__title text__animation active"
+                  href="/"
+                  onClick={[Function]}
+                  style={Object {}}
+                >
+                  Trang chủ
+                </a>
+              </div>
+              <div
+                className="navbar__item"
+              >
+                <a
+                  aria-current={null}
+                  className="navbar__title text__animation"
+                  href="/ASD"
+                  onClick={[Function]}
+                >
+                  Giới thiệu
+                </a>
+              </div>
+              <div
+                className="navbar__item"
+              >
+                <a
+                  aria-current={null}
+                  className="navbar__title text__animation"
+                  href="/sanpham"
+                  onClick={[Function]}
+                >
+                  Sản phẩm
+                </a>
+              </div>
+              <div
+                className="navbar__item"
+              >
+                <a
+                  aria-current={null}
+                  className="navbar__title text__animation"
+                  href="/bao-hanh-va-sua-chua"
+                  onClick={[Function]}
+                >
+                  Bảo hành và Sửa chữa
+                </a>
+              </div>
+            </div>
+            <div
+              className="customHeader__logoResponsive"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                <img
+                  alt="logo"
+                  src="logo2.png"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            className="customHeader__right col-5 col-xl-4"
+          >
+            <div
+              className="customHeader__icons"
+            >
+              <div
+                className="icon user"
+              >
+                <div
+                  className="login"
+                >
+                  <button
+                    aria-label={null}
+                    className="loginButton btn btn-secondary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Đăng nhập
+                     
+                  </button>
+                  <button
+                    aria-label={null}
+                    className="signUpButton btn btn-outline-secondary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Đăng ký
+                     
+                  </button>
+                </div>
+              </div>
+              <div
+                className="icon search"
+              >
+                <svg
+                  className="text__animation"
+                  fill="none"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="8"
+                  />
+                  <line
+                    x1="21"
+                    x2="16.65"
+                    y1="21"
+                    y2="16.65"
+                  />
+                </svg>
+              </div>
+              <div
+                className="icon cart"
+              >
+                <svg
+                  className="text__animation"
+                  fill="currentColor"
+                  height="1em"
+                  onClick={[Function]}
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M4 16V4H2V2h3a1 1 0 0 1 1 1v12h12.438l2-8H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1zm2 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="customHeader__block"
+    />
+    <div
+      className="customHeader__menuResponsive"
+    >
+      <div
+        className="menuResponsive"
+      >
+        <div
+          className="menuResponsive__buttonExit"
+        >
+          <span
+            className="buttonExit text__animation"
+            onClick={[Function]}
+          >
+            x
+          </span>
+        </div>
+        <div
+          className="menuResponsive__listNav"
+        >
+          <div
+            className="navbar__item"
+          >
+            <a
+              aria-current="page"
+              className="navbar__title text__animation active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Trang chủ
+            </a>
+          </div>
+          <div
+            className="navbar__item"
+          >
+            <a
+              aria-current={null}
+              className="navbar__title text__animation"
+              href="/ASD"
+              onClick={[Function]}
+            >
+              Giới thiệu
+            </a>
+          </div>
+          <div
+            className="navbar__item"
+          >
+            <a
+              aria-current={null}
+              className="navbar__title text__animation"
+              href="/sanpham"
+              onClick={[Function]}
+            >
+              Sản phẩm
+            </a>
+          </div>
+          <div
+            className="navbar__item"
+          >
+            <a
+              aria-current={null}
+              className="navbar__title text__animation"
+              href="/bao-hanh-va-sua-chua"
+              onClick={[Function]}
+            >
+              Bảo hành và Sửa chữa
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="loginWrapper__img"
+  >
+    <img
+      alt="login icon"
+      src="login.svg"
+    />
+  </div>
+  <div
+    className="loginWrapper__form"
+  >
+    <div
+      className="loginWrapper__form-title"
+    >
+      <h1>
+        Đăng nhập
+      </h1>
+    </div>
+    <div
+      className="loginWrapper__form-content"
+    >
+      <div
+        className="login-content"
+      >
+        <form
+          action="#"
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="mx-0 form-group"
+          >
+            <label
+              className="col-form-label"
+              htmlFor="user_email"
+            >
+              Email
+               *
+            </label>
+            <div
+              className="px-0 col"
+            >
+              <input
+                aria-invalid={false}
+                className="form-control"
+                id="user_email"
+                maxLength={100}
+                name="email"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="Nhập email"
+                type="email"
+                value=""
+              />
+            </div>
+            <div
+              className="px-0 text-error col-12"
+            />
+          </div>
+          <div
+            className="mx-0 form-group"
+          >
+            <label
+              className="col-form-label"
+              htmlFor="user_password"
+            >
+              Mật khẩu
+               *
+            </label>
+            <div
+              className="px-0 col"
+            >
+              <input
+                aria-invalid={false}
+                className="form-control"
+                id="user_password"
+                maxLength={100}
+                name="password"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="Nhập mật khẩu"
+                type="password"
+                value=""
+              />
+            </div>
+            <div
+              className="px-0 text-error col-12"
+            />
+          </div>
+          <div
+            className="mx-0 justify-center row"
+          >
+            <button
+              aria-label={null}
+              className="signin disabled btn btn-success btn-sm disabled"
+              disabled={true}
+              onClick={[Function]}
+              type="submit"
+            >
+              Đăng nhập
+            </button>
+          </div>
+        </form>
+      </div>
+      <div
+        className="mx-0 redirect-to justify-content-center"
+      >
+        <div
+          className="forgot-password"
+        >
+          <a
+            className="text__animation"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="text-normal"
+            >
+              Quên mật khẩu?
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="loginWrapper__introduction "
+  >
+    <h5>
+      Chưa có tài khoản? 
+    </h5>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, unde!
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      ĐĂNG KÝ
+    </button>
+  </div>
+  <div
+    className="signUpWrapper__img"
+  >
+    <img
+      alt="signUp icon"
+      src="signup.svg"
+    />
+  </div>
+  <div
+    className="signUpWrapper__form"
+  >
+    <div
+      className="signUpWrapper__form-title"
+    >
+      <h1>
+        Đăng ký
+      </h1>
+    </div>
+    <div
+      className="signUpWrapper__form-content"
+    >
+      <div
+        className="signup-content"
+      >
+        <form
+          action="#"
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-5"
+            >
+              <div
+                className="mx-0 form-group"
+              >
+                <label
+                  className="col-form-label"
+                  htmlFor="user_firstName"
+                >
+                  Tên
+                   *
+                </label>
+                <div
+                  className="px-0 col"
+                >
+                  <input
+                    aria-invalid={false}
+                    className="form-control"
+                    id="user_firstName"
+                    maxLength={100}
+                    name="firstName"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="Nhập tên"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="px-0 text-error col-12"
+                />
+              </div>
+            </div>
+            <div
+              className="col-md-7"
+            >
+              <div
+                className="mx-0 form-group"
+              >
+                <label
+                  className="col-form-label"
+                  htmlFor="user_lastName"
+                >
+                  Họ & tên đệm
+                   *
+                </label>
+                <div
+                  className="px-0 col"
+                >
+                  <input
+                    aria-invalid={false}
+                    className="form-control"
+                    id="user_lastName"
+                    maxLength={100}
+                    name="lastName"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="Nhập họ và tên đệm"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="px-0 text-error col-12"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="mx-0 form-group"
+          >
+            <label
+              className="col-form-label"
+              htmlFor="user_signUp_email"
+            >
+              Email
+               *
+            </label>
+            <div
+              className="px-0 col"
+            >
+              <input
+                aria-invalid={false}
+                className="form-control"
+                id="user_signUp_email"
+                maxLength={100}
+                name="email"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="Nhập email"
+                type="email"
+                value=""
+              />
+            </div>
+            <div
+              className="px-0 text-error col-12"
+            />
+          </div>
+          <div
+            className="mx-0 form-group"
+          >
+            <label
+              className="col-form-label"
+              htmlFor="user_signUp_password"
+            >
+              Mật khẩu
+               *
+            </label>
+            <div
+              className="px-0 col"
+            >
+              <input
+                aria-invalid={false}
+                className="form-control"
+                id="user_signUp_password"
+                maxLength={100}
+                name="password"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="Nhập mật khẩu"
+                type="password"
+                value=""
+              />
+            </div>
+            <div
+              className="px-0 text-error col-12"
+            />
+          </div>
+          <div
+            className="mx-0 justify-center row"
+          >
+            <button
+              aria-label={null}
+              className="signup disabled btn btn-success btn-sm disabled"
+              disabled={true}
+              onClick={[Function]}
+              type="submit"
+            >
+              Đăng ký
+            </button>
+          </div>
+        </form>
+      </div>
+      <div
+        className="mx-0 redirect-to justify-content-center"
+      >
+        <div
+          className="forgot-password"
+        >
+          <a
+            className="text__animation"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="text-normal"
+            >
+              Quên mật khẩu?
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="signUpWrapper__introduction "
+  >
+    <h5>
+      Đã có tài khoản? 
+    </h5>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, unde!
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      ĐĂNG NHẬP
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+{
+  "notifications": [
+    {
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "status": "success"
+    },
+    {
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "status": "warning"
+    },
+    {
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "status": "danger"
+    },
+    {
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "status": "primary"
+    }
+  ]
+}

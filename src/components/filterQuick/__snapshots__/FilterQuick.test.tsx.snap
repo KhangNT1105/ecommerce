@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterQuick /> render snapshot correctly 1`] = `
+<div
+  className="filter-quick undefined"
+>
+  <div
+    className="filter-quick-title"
+  >
+    Quick Filters
+  </div>
+  <div
+    className=""
+    onClick={[Function]}
+  >
+    Active
+  </div>
+  <div
+    className=""
+    onClick={[Function]}
+  >
+    Admin
+  </div>
+  <div
+    className=""
+    onClick={[Function]}
+  >
+    User
+  </div>
+  <div
+    className=""
+    onClick={[Function]}
+  >
+    Inactive
+  </div>
+</div>
+`;

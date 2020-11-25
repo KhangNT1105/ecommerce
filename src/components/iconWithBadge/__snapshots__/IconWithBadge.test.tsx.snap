@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconWithBadge /> snapshots render snapshot correctly 1`] = `
+<div
+  className="icon-with-badge undefined"
+>
+  <i
+    className="fa fa-bell-o fa-fw"
+  />
+  <span
+    className="icon-with-badge__badge badge badge-primary badge-pill"
+  >
+    6
+  </span>
+</div>
+`;

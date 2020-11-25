@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoggedInLayout /> snapshots render default layout 1`] = `null`;
+
+exports[`<MiscPagesLayout /> snapshots render with misc page layout 1`] = `null`;

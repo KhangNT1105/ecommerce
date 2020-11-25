@@ -1,0 +1,35 @@
+@import 'styles/variables.scss';
+@import 'styles/_zIndex.scss';
+
+.picker-overlay {
+  z-index: $zIndexInputTypeFile;
+  right: 0;
+}
+
+.cover-outside {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: $zIndexInputTypeFile;
+}
+
+.color-picker {
+  border: 1px solid $border-input;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.pick-button {
+  font-weight: bold;
+  color: $favorite-green;
+  cursor: pointer;
+}
+
+.preview-color {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

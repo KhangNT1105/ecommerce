@@ -1,0 +1,47 @@
+$url-font: "/assets/fonts/";
+$url-josefin-font: "/assets/fonts/Josefin_Sans/static";
+@font-face {
+  font-family: "Avenir";
+  src: url("#{$url-font}Avenir-Heavy.eot");
+  src:
+    local("Avenir Heavy"),
+    local("Avenir-Heavy"),
+    url("#{$url-font}Avenir-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("#{$url-font}Avenir-Heavy.woff2") format("woff2"),
+    url("#{$url-font}Avenir-Heavy.woff") format("woff"),
+    url("#{$url-font}Avenir-Heavy.ttf") format("truetype"),
+    url("#{$url-font}Avenir-Heavy.svg#Avenir-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("#{$url-font}Avenir-Medium.eot");
+  src:
+    local("Avenir Medium"),
+    local("Avenir-Medium"),
+    url("#{$url-font}Avenir-Medium.eot?#iefix") format("embedded-opentype"),
+    url("#{$url-font}Avenir-Medium.woff2") format("woff2"),
+    url("#{$url-font}Avenir-Medium.woff") format("woff"),
+    url("#{$url-font}Avenir-Medium.ttf") format("truetype"),
+    url("#{$url-font}Avenir-Medium.svg#Avenir-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("#{$url-font}Avenir-Roman.eot");
+  src:
+    local("Avenir Roman"),
+    local("Avenir-Roman"),
+    url("#{$url-font}Avenir-Roman.eot?#iefix") format("embedded-opentype"),
+    url("#{$url-font}Avenir-Roman.woff2") format("woff2"),
+    url("#{$url-font}Avenir-Roman.woff") format("woff"),
+    url("#{$url-font}Avenir-Roman.ttf") format("truetype"),
+    url("#{$url-font}Avenir-Roman.svg#Avenir-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+

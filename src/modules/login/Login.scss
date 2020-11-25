@@ -1,0 +1,84 @@
+@import "../../styles/variables.scss";
+@import "../../styles/zIndex.scss";
+
+.login-content {
+  .form-group {
+    margin-bottom: 0;
+
+    .form-control {
+      height: 40px;
+      background-color: $white;
+
+      &:focus {
+        color: $text-field-focus;
+        background-color: $white;
+        border-color: $border-field-focus;
+        outline: 0;
+      }
+    }
+  }
+
+  .text-error {
+    min-height: 22px;
+  }
+
+  .text-danger {
+    font-size: 12px;
+  }
+
+  .btn {
+    min-width: 206px;
+    min-height: 42px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 13px;
+    flex: 1;
+    background: $btn-signin-bg;
+    color: $white;
+    border: none;
+
+    &:hover {
+      background: $btn-signin-bg-hover;
+    }
+
+    &:disabled {
+      background: $btn-signin-bg-disabled;
+      color: $btn-signin-text-disabled;
+
+      &:hover {
+        background: $btn-signin-bg-disabled;
+        color: $btn-signin-text-disabled;
+      }
+    }
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .col-form-label {
+    color: $text-label;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .redirect-to {
+    margin-top: 10px;
+
+    .text-normal {
+      color: $text-navigate;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      cursor: pointer;
+    }
+
+    .forgot-password {
+      flex: 1;
+    }
+  }
+
+  .spinner-loading-wrapper {
+    z-index: $zIndexSpinnerLoading;
+  }
+}

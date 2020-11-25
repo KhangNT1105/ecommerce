@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableAdvance /> snapshots render with props 1`] = `
+<table
+  className="table table-striped"
+>
+  <thead>
+    <tr>
+      <th>
+        <div
+          onClick={[Function]}
+        >
+          <i
+            className="icon-arrow-right"
+          />
+        </div>
+      </th>
+      <th>
+        ID
+      </th>
+      <th>
+        Name
+      </th>
+      <th>
+        <div>
+          Creator 
+          <b>
+            awesome
+          </b>
+        </div>
+      </th>
+      <th>
+        Action
+      </th>
+      <th>
+        Spinner
+      </th>
+    </tr>
+  </thead>
+  <TableExpandableBody
+    data={
+      Array [
+        Object {
+          "_id": 1,
+          "action": <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>,
+          "creator": "Will Smith",
+          "name": "Nate",
+          "spinner": <TestSpinner />,
+          "status": "active",
+        },
+        Object {
+          "_id": 2,
+          "action": <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>,
+          "creator": "Will Smith",
+          "name": "River",
+          "spinner": <TestSpinner
+            spinnerType="danger"
+          />,
+          "status": "active",
+        },
+        Object {
+          "_id": 3,
+          "action": <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>,
+          "creator": "Will Smith",
+          "name": "Light",
+          "spinner": <TestSpinner
+            spinnerType="info"
+          />,
+          "status": "active",
+        },
+        Object {
+          "_id": 4,
+          "action": <div>
+            <button
+              className="btn btn-info"
+            >
+              Detail
+            </button>
+            <button
+              className="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>,
+          "creator": "Will Smith",
+          "name": "Jasmine",
+          "spinner": <TestSpinner
+            spinnerType="warning"
+          />,
+          "status": "active",
+        },
+      ]
+    }
+    isCloseAll={true}
+    isOpenAll={false}
+    onToggleRow={[Function]}
+    pathList={
+      Array [
+        "_id",
+        "name",
+        "creator",
+        "action",
+        "spinner",
+      ]
+    }
+  />
+</table>
+`;

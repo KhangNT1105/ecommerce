@@ -1,0 +1,28 @@
+.show-row-container {
+  display: flex;
+  display: -webkit-flex;
+  padding: 0 10px;
+
+  p {
+    padding: 3px 10px;
+    font-size: 15px;
+  }
+
+  .dropdown {
+    width: 80px;
+    top: 0;
+    background: none;
+
+    .dropdown-toggle::after {
+      font-size: 14px;
+    }
+
+    .dropdown-toggle.btn-secondary {
+      min-height: 30px;
+    }
+
+    .dropdown-menu {
+      min-width: 0;
+    }
+  }
+}

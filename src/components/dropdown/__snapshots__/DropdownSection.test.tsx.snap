@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Button snapshots default render 1`] = `
+<div
+  className="extended-dropdown__section"
+/>
+`;
+
+exports[`component Button snapshots render with props className and list 1`] = `
+<div
+  className="extended-dropdown__section dropdown extended-dropdown__section--list"
+>
+  Test Dropdown Section
+</div>
+`;
+
+exports[`component Button snapshots render with props className and no list 1`] = `
+<div
+  className="extended-dropdown__section dropdown"
+>
+  Test Dropdown Section
+</div>
+`;

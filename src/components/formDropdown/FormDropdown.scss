@@ -1,0 +1,12 @@
+@import "styles/variables";
+
+.form-dropdown {
+  &.dropdown-toggle.disabled {
+    &::after {
+      display: none;
+    }
+
+    cursor: unset;
+    background-color: $disabledColor;
+  }
+}

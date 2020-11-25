@@ -1,0 +1,7 @@
+@import '../../../styles/variables';
+
+.anonymous-layout {
+  &-content {
+    width: $anonymous-width-content;
+  }
+}

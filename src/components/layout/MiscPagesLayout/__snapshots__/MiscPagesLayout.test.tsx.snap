@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiscPagesLayout /> snapshots default render 1`] = `
+<div
+  className="layout layout--animations-enabled layout--theme--dark--primary"
+>
+  <div
+    className="layout__sidebar layout-sidebar"
+    style={
+      Object {
+        "width": 250,
+      }
+    }
+  >
+    <div
+      className="sidebar sidebar--animations-enabled sidebar--animate-entry-complete"
+    >
+      <div
+        className="sidebar__close"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-times-circle fa-fw"
+        />
+      </div>
+      <div
+        className="sidebar__section"
+      >
+        <div
+          className="sidebar__brand"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt="ACEXIS_LOGO_ALT"
+              className="logo-slim d-none"
+              src=""
+            />
+            <img
+              alt="ACEXIS_LOGO_ALT"
+              className=""
+              src=""
+            />
+            <small
+              className="d-block small"
+            >
+              <strong>
+                CMS_TITLE
+              </strong>
+            </small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="layout__wrap layout-wrap"
+  >
+    <div
+      className="layout__navbar layout-wrap-navbar"
+    >
+      <nav
+        className="navbar-multi-collapse navbar navbar-expand navbar-light"
+      >
+        <div
+          className="navbar-collapse-wrap container-fluid"
+        >
+          <ul
+            className="navbar-nav"
+          >
+            <li
+              className="mr-3 nav-item"
+              onClick={[Function]}
+            >
+              <div
+                className="nav-link"
+              >
+                <i
+                  className="fa fa-bars fa-fw"
+                />
+              </div>
+            </li>
+            <li
+              className="d-none d-md-block nav-item"
+            >
+              <span
+                className="navbar-text"
+              >
+                <a
+                  href="/"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="fa fa-home"
+                  />
+                </a>
+              </span>
+              <div
+                className="customBreadcrumb text-center"
+              >
+                <span
+                  className="navbar-text px-2"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 256 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </li>
+          </ul>
+          <ul
+            className="ml-auto navbar-nav"
+          >
+            <li
+              className="dropdown nav-item"
+              onKeyDown={[Function]}
+            >
+              <a
+                aria-expanded={false}
+                aria-haspopup={true}
+                className="nav-link"
+                href="#"
+                onClick={[Function]}
+              >
+                <div
+                  className="icon-with-badge undefined"
+                >
+                  <i
+                    className="fa fa-bell-o fa-fw"
+                  />
+                  <span
+                    className="icon-with-badge__badge badge badge-primary badge-pill"
+                  >
+                    4
+                  </span>
+                </div>
+              </a>
+              <div
+                aria-hidden={true}
+                className="extended-dropdown dropdown-menu dropdown-menu-right"
+                role="menu"
+                style={
+                  Object {
+                    "width": "100vw",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="extended-dropdown__section d-flex justify-content-between align-items-center"
+                >
+                  <h6
+                    className="mb-0"
+                  >
+                    Notifications
+                  </h6>
+                  <span
+                    className="badge badge-secondary badge-pill"
+                  >
+                    4
+                  </span>
+                </div>
+                <div
+                  className="extended-dropdown__section extended-dropdown__section--list"
+                >
+                  <ul
+                    className="list-group"
+                  >
+                    <li
+                      className="list-group-item-action list-group-item"
+                    >
+                      <div
+                        className="media"
+                      >
+                        <div
+                          className="media-left"
+                        >
+                          <span
+                            className="fa-stack fa-lg fa-fw d-flex mr-3"
+                          >
+                            <i
+                              className="fa fa-circle fa-fw fa-stack-2x text-success"
+                            />
+                            <i
+                              className="fa fa-check fa-stack-1x fa-fw text-white"
+                            />
+                          </span>
+                        </div>
+                        <div
+                          className="media-body"
+                        >
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      className="list-group-item-action list-group-item"
+                    >
+                      <div
+                        className="media"
+                      >
+                        <div
+                          className="media-left"
+                        >
+                          <span
+                            className="fa-stack fa-lg fa-fw d-flex mr-3"
+                          >
+                            <i
+                              className="fa fa-circle fa-fw fa-stack-2x text-warning"
+                            />
+                            <i
+                              className="fa fa-exclamation fa-stack-1x fa-fw text-white"
+                            />
+                          </span>
+                        </div>
+                        <div
+                          className="media-body"
+                        >
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      className="list-group-item-action list-group-item"
+                    >
+                      <div
+                        className="media"
+                      >
+                        <div
+                          className="media-left"
+                        >
+                          <span
+                            className="fa-stack fa-lg fa-fw d-flex mr-3"
+                          >
+                            <i
+                              className="fa fa-circle fa-fw fa-stack-2x text-danger"
+                            />
+                            <i
+                              className="fa fa-close fa-stack-1x fa-fw text-white"
+                            />
+                          </span>
+                        </div>
+                        <div
+                          className="media-body"
+                        >
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      className="list-group-item-action list-group-item"
+                    >
+                      <div
+                        className="media"
+                      >
+                        <div
+                          className="media-left"
+                        >
+                          <span
+                            className="fa-stack fa-lg fa-fw d-flex mr-3"
+                          >
+                            <i
+                              className="fa fa-circle fa-fw fa-stack-2x text-primary"
+                            />
+                            <i
+                              className="fa fa-info fa-stack-1x fa-fw text-white"
+                            />
+                          </span>
+                        </div>
+                        <div
+                          className="media-body"
+                        >
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="extended-dropdown__section text-center"
+                >
+                  See All Notifications
+                  <i
+                    className="fa fa-angle-right fa-fw ml-2"
+                  />
+                </div>
+              </div>
+            </li>
+            <div
+              className="ml-2 d-flex align-items-center"
+            >
+              <span>
+                WELCOME,
+              </span>
+              <span
+                className="ml-1 font-weight-bold"
+              >
+                
+              </span>
+            </div>
+            <li
+              className="ml-2 nav-link nav-item"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <i
+                className="fa fa-power-off"
+              />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="layout__content layout-content"
+    >
+      <div
+        className="container"
+      >
+        <div>
+          Hi, this is some misc content like about, term, etc.
+        </div>
+      </div>
+    </div>
+    <div
+      className="layout-footer text-right"
+    >
+      <p>
+        <small
+          className="small"
+        >
+          CMS_COPYRIGHT
+        </small>
+      </p>
+    </div>
+  </div>
+</div>
+`;

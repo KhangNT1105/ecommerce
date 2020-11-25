@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.table {
+  th,
+  td {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}

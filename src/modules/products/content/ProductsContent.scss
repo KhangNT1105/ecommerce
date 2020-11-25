@@ -1,0 +1,101 @@
+@import 'styles/variables.scss';
+@import 'styles/mixin.scss';
+
+.productsContent {
+  .productsContent__filter {
+    .left {
+      .input-group {
+        input {
+          background-color: $white;
+
+        }
+
+        .input-group-append {
+          button {
+            background: $black;
+
+            &:hover {
+              background: $primary-color;
+              border-color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      .filter {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .filter__sort {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .productsContent__listProducts {
+    padding: 30px 0;
+
+    .listProducts {
+      .left {
+        .listProducts__filter {
+          h4 {
+            border-bottom: 1px solid $border-color-highlight;
+            position: relative;
+            padding-bottom: 10px;
+
+            &::before {
+              content: '';
+              position: absolute;
+              width: 50px;
+              height: 2px;
+              top: 100%;
+              left: 0;
+              background-color: $primary-color;
+            }
+          }
+
+          .listProducts__categories {
+            list-style: none;
+            padding-inline-start: 0;
+
+            .categoryItem {
+              padding: 12px 0 12px 20px;
+              position: relative;
+              border-bottom: 1px solid $border-color-categories;
+                font-size: 16px;
+                font-weight: 500;
+              &::before {
+                content: '';
+                height: 4px;
+                width: 4px;
+                display: block;
+                background-color: #9a9a9a;
+                position: absolute;
+                left: 0;
+                top: 25px;
+              }
+            }
+          }
+        }
+      }
+      .active {
+        background: $primary-color;
+        color: $white
+      }
+      li:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.loading {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

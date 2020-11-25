@@ -1,0 +1,282 @@
+@import 'styles/variables.scss';
+@import 'styles/mixin.scss';
+
+.loginWrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: $blue;
+
+  &.signUpForm {
+    &::before {
+      transform: translate(105%, 50%);
+    }
+
+    .loginWrapper__form {
+      right: -100%;
+    }
+
+    .loginWrapper__img {
+      bottom: -50%;
+    }
+
+    .loginWrapper__introduction {
+      top: -20%;
+    }
+
+    .signUpWrapper__introduction {
+      top: 20%;
+    }
+
+    .signUpWrapper__form {
+      left: 10%;
+    }
+
+    .signUpWrapper__img {
+      bottom: 10%;
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 112%;
+    right: 55%;
+    transform: translateY(50%);
+    width: 2000px;
+    height: 2000px;
+    background: linear-gradient(to right, $circle-bg-color1, $circle-bg-color2);
+    border-radius: 50%;
+    transition: 1s ease-in-out;
+  }
+
+  .loginWrapper__img {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    transition: 1s;
+    width: 35%;
+
+    @include responds-to('small') {
+      display: none;
+    }
+
+  }
+
+  .loginWrapper__form {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 300px;
+    transition: 1s;
+
+    h1 {
+      font-weight: 700;
+      text-align: center;
+
+      @include responds-to('small') {
+        font-size: 22px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  .loginWrapper__introduction,
+  .signUpWrapper__introduction {
+    position: absolute;
+    color: $white;
+    text-align: center;
+    transition: 1s ease-in-out;
+    width: 30%;
+
+    h5 {
+      color: $white;
+      font-weight: 700;
+    }
+
+    button {
+      background-color: transparent;
+      outline: none;
+      border: 1px solid $white;
+      border-radius: 50px;
+      padding: 8px 20px;
+      color: $white;
+      transition: .5s;
+
+      &:hover {
+        border: 1px solid $black;
+
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+
+  .loginWrapper__introduction {
+    right: 65%;
+    top: 22%;
+
+  }
+
+
+
+  .redirect-to {
+    display: flex;
+    padding-top: 20px;
+
+    a {
+      color: $text-active;
+      font-weight: 600;
+    }
+  }
+
+  .register {
+    padding-top: 10px;
+    color: $black;
+    display: flex;
+    justify-content: center;
+
+    .register__text {
+      padding-left: 10px;
+      color: $text-active;
+      font-weight: 600;
+    }
+  }
+
+  .signUpWrapper__form {
+    position: absolute;
+    top: 25%;
+    left: -100%;
+    width: 350px;
+    transition: 1s;
+
+    h1 {
+      text-align: center;
+      font-weight: 700;
+
+      @include responds-to('small') {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .signUpWrapper__img {
+    position: absolute;
+    bottom: -50%;
+    right: 10%;
+    transition: 1s;
+    width: 35%;
+
+    @include responds-to('small') {
+      display: none;
+    }
+
+  }
+
+  .signUpWrapper__introduction {
+    top: -20%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  .loginWrapper {
+    &.signUpForm {
+      &::before {
+        right: -1100px;
+        transform: translate(0);
+      }
+
+      .loginWrapper__img {
+        bottom: -50%;
+      }
+
+      .loginWrapper__introduction {
+        top: -50%;
+      }
+
+      .signUpWrapper__introduction {
+        top: 80%;
+      }
+
+      .signUpWrapper__form {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .signUpWrapper__img {
+        bottom: 5%;
+      }
+    }
+
+    &::before {
+      bottom: -1800px;
+      right: -550px;
+      transform: translateY(0);
+    }
+
+    .loginWrapper__img {
+      position: absolute;
+      bottom: 5%;
+      left: 60%;
+      transition: 1s;
+      width: 35%;
+
+      img {
+        max-width: 80%;
+      }
+
+    }
+
+    .loginWrapper__form {
+      right: 50%;
+      top: 20%;
+      transform: translateX(50%);
+    }
+
+    .loginWrapper__introduction,
+    .signUpWrapper__introduction {
+      font-size: 11px;
+      width: 50%;
+
+      h5 {
+        font-size: 14px;
+      }
+
+      button {
+        font-size: 11px;
+      }
+    }
+
+    .loginWrapper__introduction {
+      right: 50%;
+      top: 80%;
+    }
+
+    .signUpWrapper__form {
+      top: 15%;
+      left: -150%;
+
+      h1 {
+        font-size: 23px;
+      }
+    }
+
+    .signUpWrapper__img {
+      bottom: -50%;
+      right: 45%;
+
+      img {
+        max-width: 80%;
+      }
+
+    }
+
+    .signUpWrapper__introduction {
+      top: -50%;
+      right: 5%;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+/* stylelint-disable */
+@import "styles/variables";
+
+.filter-tag {
+  position: relative;
+
+  :global(.filter-tag__input) {
+    background-color: $white;
+    padding: 5px;
+    border: 1px $border-filter solid;
+    position: absolute;
+    top: 100%;
+    margin-top: -1px;
+    z-index: 1;
+
+    input {
+      padding: 5px 10px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px $border-filter solid;
+      width: 100%;
+      min-width: 200px;
+    }
+
+    & > div {
+      max-height: 250px;
+      overflow: auto;
+
+      & > div {
+        width: 100%;
+        border: 1px $border-filter solid;
+        padding: 5px 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $border-filter;
+        }
+      }
+    }
+  }
+}
+
+.filter-tag__button {
+  border: 1px $border-filter solid;
+  padding: 5px 10px;
+  color: $status-color-active;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  :global(.dropdown-button) {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  :global(.icon-down) {
+    margin-top: 4px;
+    margin-left: 2px;
+  }
+
+  :global(.value) {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: $black;
+
+    button {
+      display: flex;
+      cursor: pointer;
+      align-items: center;
+      border: none;
+      font-size: 13px;
+      height: 16px;
+      justify-content: center;
+      line-height: 0;
+      margin-left: 0;
+      padding: 0;
+      width: 16px;
+      font-weight: bold;
+      color: $border-filter;
+
+      &:global(.tag-button) {
+        background-color: transparent;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.close-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-45%, -45%);
+  cursor: pointer;
+  i{
+    display: block;
+  }
+}
+
+.filter-tag-lookup-field {
+  position: absolute;
+  width: 220px;
+}

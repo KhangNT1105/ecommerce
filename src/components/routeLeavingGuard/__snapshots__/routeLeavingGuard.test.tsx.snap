@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RouteLeavingGuard/> snapshots render RouteLeavingGuard snapshot 1`] = `
+Array [
+  <div />,
+  <WarningMessage
+    isOpen={false}
+    message="LOST_DATA"
+    onCancelHandler={[Function]}
+    onOkHandler={[Function]}
+    textCancel="CANCEL"
+    textOk="OK"
+    title="WARNING"
+  />,
+]
+`;

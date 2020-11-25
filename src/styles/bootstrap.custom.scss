@@ -1,0 +1,52 @@
+$white: #fff;
+$body-bg: #f2f2f2;
+$body-color: #231f20;
+$primary: #0c9;
+$danger: #ff6f70;
+$borderColor: #eaeff0;
+$secondary: #d1d2db;
+$light: #fa5f92;
+
+//Toast
+$toast-background-color: $danger;
+$toast-border-radius: 0;
+$toast-border-width: 0;
+$toast-color: $white;
+$toast-font-size: 16px;
+$toast-padding-x: 13px;
+
+$font-family-sans-serif: 'Avenir', sans-serif;
+$font-size-base: 0.875rem !default;
+$font-weight-normal: 500 !default;
+
+$h1-font-size: $font-size-base * 2 !default;
+
+$headings-font-weight: 900 !default;
+
+$grid-gutter-width: 20px !default;
+$border-radius: 4px;
+
+//Button
+$btn-font-size: 16px;
+$btn-border-radius: 5px;
+$btn-padding-x: 36px;
+
+// Form
+$input-border-color: #d1d2db;
+$input-btn-padding-y: 0.469rem !default;
+
+$input-focus-border-color: $primary;
+$input-btn-focus-width: 0;
+
+$input-btn-focus-box-shadow: 0 2px 4px 0 rgba(41, 49, 101, 0.2);
+$input-placeholder-color: #aeb0bd;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px
+) !default;
+
+//Table
+$table-border-color: $borderColor;

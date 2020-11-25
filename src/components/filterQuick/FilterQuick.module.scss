@@ -1,0 +1,25 @@
+@import "styles/variables";
+
+.filter-quick {
+  color: $status-color-active;
+  display: flex;
+  padding: 5px 0;
+
+  & > div {
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  :global(.filter-quick-title) {
+    color: $black;
+    cursor: unset;
+    margin: unset;
+  }
+
+  :global(.filter-quick-chosen) {
+    color: $white;
+    background-color: $status-color-active;
+  }
+}

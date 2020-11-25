@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingBar /> snapshots render snapshot correctly 1`] = `
+<div
+  className="loading-bar-container"
+>
+  <div
+    className="progress-line"
+  />
+  <span
+    className="progress-text"
+  >
+    Loading ...
+  </span>
+</div>
+`;

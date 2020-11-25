@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LookupFieldWrapper /> snapshots renders LookupFieldWrapper correctly 1`] = `
+<div
+  className="input-tag-container"
+>
+  <div
+    className="input-tag"
+  >
+    <ul
+      className="input-tag-list"
+    >
+      <li
+        className="input-box"
+      >
+        <input
+          className=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </li>
+    </ul>
+  </div>
+  <div
+    className="px-0 text-error col-12"
+  />
+  <div
+    className="suggestions-container"
+  />
+  <div
+    className="px-0 text-error col-12"
+  />
+</div>
+`;

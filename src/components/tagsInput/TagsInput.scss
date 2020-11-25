@@ -1,0 +1,92 @@
+@import "styles/variables";
+
+.input-tag-container {
+  .input-tag {
+    background: $white;
+    border: 1px solid $border-input;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px 0;
+
+    .input-tag-list {
+      display: inline-flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+
+      li {
+        align-items: center;
+        background: $grey-1;
+        border-radius: 2px;
+        color: $black;
+        display: flex;
+        font-weight: 400;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        padding: 5px 10px;
+      }
+
+      .tag-button {
+        align-items: center;
+        border: none;
+        border-radius: 50%;
+        background: $grey-1;
+        font-size: 18px;
+        height: 16px;
+        justify-content: center;
+        line-height: 0;
+        margin-left: 4px;
+        padding: 0;
+        width: 16px;
+        font-weight: bold;
+        overflow: hidden;
+      }
+
+      .input-box {
+        background: none;
+        flex-grow: 1;
+        padding: 0;
+
+        input {
+          border: none;
+          width: 100%;
+        }
+
+        input:invalid {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  .dropdown {
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background: $white;
+
+    .suggestions {
+      list-style: none;
+      padding-left: 0;
+      box-shadow: 0 1px 6px $border-filter, 0 1px 4px $border-filter;
+
+      li {
+        border-bottom: 1px solid $grey-1;
+        padding: 0.6em;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      li:hover {
+        background-color: $grey-1;
+      }
+
+      .focused {
+        transition: backgroundcolor linear 0.2s;
+        background-color: $grey-1;
+      }
+    }
+  }
+}

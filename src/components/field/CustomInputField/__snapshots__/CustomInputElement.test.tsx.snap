@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomInputElement /> snapshots default render 1`] = `
+<div
+  className="custom-checkbox custom-control"
+  hidden={false}
+>
+  <input
+    className="custom-control-input"
+    id="render_custom_checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="custom-control-label"
+    htmlFor="render_custom_checkbox"
+  />
+</div>
+`;
+
+exports[`<CustomInputElement /> snapshots renders input is Custom Checkbox 1`] = `
+<div
+  className="custom-checkbox custom-control"
+  hidden={false}
+>
+  <input
+    className="custom-control-input"
+    component="input"
+    id="render_custom_checkbox"
+    name="test"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="custom-control-label"
+    htmlFor="render_custom_checkbox"
+  >
+    Custom Input
+  </label>
+</div>
+`;
+
+exports[`<CustomInputElement /> snapshots renders input is Custom Radio 1`] = `
+<div
+  className="custom-radio custom-control"
+  hidden={false}
+>
+  <input
+    className="custom-control-input"
+    component="input"
+    id="render_radio"
+    name="test"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="custom-control-label"
+    htmlFor="render_radio"
+  >
+    Custom Input
+  </label>
+</div>
+`;
+
+exports[`<CustomInputElement /> snapshots renders input is disabled Custom Checkbox 1`] = `
+<div
+  className="custom-checkbox custom-control"
+  hidden={false}
+>
+  <input
+    className="custom-control-input"
+    component="input"
+    disabled={true}
+    id="render_custom_disabled_checkbox"
+    name="test"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="custom-control-label"
+    htmlFor="render_custom_disabled_checkbox"
+  >
+    Custom Input
+  </label>
+</div>
+`;
+
+exports[`<CustomInputElement /> snapshots renders input is disabled Custom Radio 1`] = `
+<div
+  className="custom-radio custom-control"
+  hidden={false}
+>
+  <input
+    className="custom-control-input"
+    component="input"
+    disabled={true}
+    id="render_disabled_radio"
+    name="test"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="custom-control-label"
+    htmlFor="render_disabled_radio"
+  >
+    Custom Input
+  </label>
+</div>
+`;
+
+exports[`<CustomInputElement /> snapshots renders input is readOnly Custom Radio 1`] = `
+<div
+  className="read-only custom-radio custom-control"
+  hidden={false}
+>
+  <input
+    className="custom-control-input"
+    component="input"
+    id="render_readonly_radio"
+    name="test"
+    onChange={[Function]}
+    readOnly={true}
+    type="radio"
+  />
+  <label
+    className="custom-control-label"
+    htmlFor="render_readonly_radio"
+  >
+    Custom Input
+  </label>
+</div>
+`;

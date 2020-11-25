@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> snapshots default render 1`] = `
+<div
+  className="footer"
+>
+  COPYRIGHT
+</div>
+`;

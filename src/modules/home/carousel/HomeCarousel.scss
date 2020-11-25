@@ -1,0 +1,229 @@
+@import 'styles/variables.scss';
+
+.homeCarousel {
+  height: 500px;
+  background-color: $group-header-color;
+
+  .alice-carousel {
+    height: 100%;
+
+    div {
+      height: 100%;
+    }
+
+    .alice-carousel__dots {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      .alice-carousel__dots-item{
+        height: 9px;
+        margin-right: 10px;
+        transition: .3s;
+        &.__active{
+          width: 30px;
+          background-color: $primary-color;
+          border-radius: 30px;
+        }
+      }
+    }
+
+    .alice-carousel__wrapper {
+      height: 100%;
+
+      .alice-carousel__stage {
+        height: 100%;
+
+        .alice-carousel__stage-item {
+          &.__active {
+            .carouselItem {
+              .carouselItem__text {
+                h5 {
+                  transform: translateY(0);
+
+                }
+
+                h1 {
+                  transform: scale(1);
+                }
+                button{
+                  transform: translateY(0);
+
+                }
+              }
+            }
+          }
+        }
+
+        .carouselItem {
+          position: relative;
+          height: 100%;
+          .carouselItem__img--fullScreen{
+            img{
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .carouselItem__img {
+            position: absolute;
+            top: 60%;
+            transform: translateY(-50%);
+
+            &.right {
+              right: 100px;
+            }
+          }
+
+          .carouselItem__text {
+            position: absolute;
+            top: 70%;
+            transform: translateY(-50%);
+            &.left{
+              left:0;
+              text-align: left;
+            }
+            &.right{
+              right: 0;
+              text-align: right;
+
+            }
+            h5 {
+              font-weight: 700;
+              transition: 1s;
+              transform: translateY(-30px);
+            }
+
+            h1 {
+              font-weight: 800;
+              padding: 20px 0;
+              font-size: 48px;
+              transition: 1s;
+              transform: scale(0);
+              transform-origin: 100% 100%;
+
+              span {
+                color: $primary-color;
+              }
+            }
+
+            button {
+              background-color: transparent;
+              padding: 10px 25px;
+              font-size: 18px;
+              font-weight: 600;
+              transition: 1s;
+              transform: translateY(30px);
+
+              &:hover {
+                background-color: $black;
+                color: $white;
+
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  //   .homeCarousel__left {
+  //     padding-left: 0;
+
+  //     .carousel__item {
+  //       height: 420px;
+  //     }
+
+
+  //   }
+
+  //   .homeCarousel__right {
+  //     padding-right: 0;
+
+  //     .strengPoint {
+  //       &:last-child {
+  //         .strengthPoint__content {
+  //           border-bottom: 1px solid $border-input;
+
+  //         }
+  //       }
+  //     }
+
+  //     .strengthPoint__content {
+  //       display: flex;
+  //       align-items: center;
+  //       padding: 20px 15px;
+  //       border: 1px solid $border-input;
+  //       border-bottom: none;
+
+  //       .strengthPoint__icon {
+  //         font-size: 40px;
+  //       }
+
+  //       .strengthPoint__text {
+  //         padding-left: 20px;
+
+  //         h5 {
+  //           font-weight: 500;
+  //         }
+
+  //         span {
+  //           font-size: 13px;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  // @keyframes example {
+  //   0% {
+  //     background-color: red;
+  //     left: 0px;
+  //     top: 0px;
+  //   }
+
+  //   25% {
+  //     background-color: yellow;
+  //     left: 200px;
+  //     top: 0px;
+  //   }
+
+  //   50% {
+  //     background-color: blue;
+  //     left: 200px;
+  //     top: 200px;
+  //   }
+
+  //   75% {
+  //     background-color: green;
+  //     left: 0px;
+  //     top: 200px;
+  //   }
+
+  //   100% {
+  //     background-color: red;
+  //     left: 0px;
+  //     top: 0px;
+  //   }
+}
+
+
+@media (max-width: 576px) {
+  .homeCarousel {
+    height: 400px;
+  }
+  .homeCarousel .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .carouselItem .carouselItem__text h1  {
+    font-size: 1.5rem;
+  }
+  .homeCarousel .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .carouselItem .carouselItem__text button {
+    font-size: 10px;
+  }
+
+  .homeCarousel .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .carouselItem .carouselItem__img.right {
+    right: 0px;
+  }
+
+  .homeCarousel .alice-carousel .alice-carousel__wrapper .alice-carousel__stage .carouselItem .carouselItem__text.left {
+    left: 20px;
+  }
+}
